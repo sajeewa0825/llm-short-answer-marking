@@ -2,7 +2,7 @@
 
 This repository contains the data, LLM marks and analysis notebook for the paper:
 
-> Kumarasingha, K.M.S.S., Hansana, M.M.S.M., Kithulwatta, W.M.C.J.T., Wickramasinghe, W.M.D.M., Rajanayaka, H.M.M.S., Rasingolla, R.W.M.S.M., Konara, K.M.H.L.: Large Language Models as Short-Answer Markers: Reference Answers, Rater Bias and the Human Agreement Ceiling on Public Benchmarks. TAIMMA 2027 (under review).
+> Kumarasingha, K.M.S.S., Hansana, M.M.S.M., Kithulwatta, W.M.C.J.T., Wickramasinghe, W.B.S. Sameepa, H.M.M.S., Rasingolla, R.W.M.S.M., Konara, K.M.H.L.: Large Language Models as Short-Answer Markers: Reference Answers, Rater Bias and the Human Agreement Ceiling on Public Benchmarks. TAIMMA 2027 (under review).
 
 Six LLM rater configurations marked 1,000 sampled answers from two public computer-science short-answer datasets (Mohler and SAF), once with the question only (L1) and once with an added reference answer (L2). The notebook reproduces every table, figure and number in the paper.
 
