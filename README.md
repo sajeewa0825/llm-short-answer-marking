@@ -80,4 +80,4 @@ In Google Colab, open `notebooks/analysis.ipynb` from GitHub and run all cells. 
 
 ## Citation
 
-Use the "Cite this repository" button on GitHub or `CITATION.cff`. The Zenodo DOI will be added here after the first release.
+Use the "Cite this repository" button on GitHub or `CITATION.cff`. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24479336.svg)](https://doi.org/10.5281/zenodo.24479336).
