@@ -1,0 +1,2001 @@
+answer_id,dataset,question_id,guidance_level,score,rationale
+mohler_27,mohler,mohler_1.1,1,3.0,"Captures testing that part of the program works, but not the prototype's role in exploring and validating a design before full implementation."
+mohler_28,mohler,mohler_1.1,1,1.5,Describes structured program development rather than prototyping; only a vague link to early design.
+mohler_32,mohler,mohler_1.2,1,2.5,Names RUP phases with some relevant activity but does not explain which stages testing actually influences.
+mohler_38,mohler,mohler_1.2,1,3.0,"Refining and coding are reasonable, but production and maintenance are missing."
+mohler_40,mohler,mohler_1.2,1,4.0,"Refining, production and maintenance are the key stages influenced by testing."
+mohler_45,mohler,mohler_1.2,1,3.5,"Lists the right stages but includes testing itself, showing weaker discrimination."
+mohler_46,mohler,mohler_1.2,1,2.0,States testing is spread through the process without naming the stages it influences.
+mohler_47,mohler,mohler_1.2,1,2.5,RUP phases are loosely relevant but not tied clearly to the influence of testing.
+mohler_53,mohler,mohler_1.2,1,2.0,Lists every stage of the life cycle without identifying which ones testing influences.
+mohler_66,mohler,mohler_1.3,1,0.0,No valid answer was given.
+mohler_73,mohler,mohler_1.3,1,4.5,"Covers easier debugging, organisation, reuse, maintenance and abstraction well."
+mohler_86,mohler,mohler_1.3,1,4.0,Explains encapsulation and inheritance correctly but covers few advantages.
+mohler_88,mohler,mohler_1.4,1,5.0,Correct: execution begins at main().
+mohler_89,mohler,mohler_1.4,1,5.0,Correct: execution begins in the main function.
+mohler_90,mohler,mohler_1.4,1,5.0,Correct: execution begins at main().
+mohler_91,mohler,mohler_1.4,1,5.0,Correct: execution begins in main().
+mohler_99,mohler,mohler_1.4,1,0.0,"Incorrect; programs begin at main(), not at a root."
+mohler_105,mohler,mohler_1.4,1,5.0,Correct: execution begins at the main function.
+mohler_106,mohler,mohler_1.4,1,4.5,Correct that execution starts at main; the remark about loading includes is imprecise.
+mohler_110,mohler,mohler_1.4,1,5.0,Correct: execution begins at main.
+mohler_111,mohler,mohler_1.4,1,5.0,Correct despite spelling: execution begins at main.
+mohler_113,mohler,mohler_1.4,1,5.0,Correct: execution begins at the main function.
+mohler_120,mohler,mohler_1.5,1,5.0,"Complete definition: a named memory location with value, type and size."
+mohler_124,mohler,mohler_1.5,1,0.0,No valid answer was given.
+mohler_125,mohler,mohler_1.5,1,4.5,Correct: a block of memory holding a specific type of data.
+mohler_130,mohler,mohler_1.5,1,4.0,Mostly correct; describing it as an address is slightly imprecise.
+mohler_132,mohler,mohler_1.5,1,3.5,Captures a symbol standing for a value but omits the memory location idea.
+mohler_134,mohler,mohler_1.5,1,3.0,Very brief; misses that a variable is a named storage location.
+mohler_139,mohler,mohler_1.5,1,4.5,Correct: a location in memory where a value can be stored.
+mohler_145,mohler,mohler_1.6,1,4.0,Correct that they are declared before use; good practice note is reasonable.
+mohler_148,mohler,mohler_1.6,1,4.5,Correctly distinguishes local declarations inside blocks and global ones outside.
+mohler_151,mohler,mohler_1.6,1,4.0,"Covers global and local declaration places correctly, though wordy."
+mohler_158,mohler,mohler_1.6,1,4.5,Correctly explains global and local declarations and declaring before use.
+mohler_159,mohler,mohler_1.6,1,3.0,Only says the beginning of a module; misses that declaration can occur anywhere before use.
+mohler_166,mohler,mohler_1.6,1,4.5,Correct: anywhere in scope before they are used.
+mohler_170,mohler,mohler_1.6,1,4.5,Correct: usually at the start but anywhere before use.
+mohler_174,mohler,mohler_1.7,1,3.5,Gets the do...while behaviour right but mislabels the while loop as do.
+mohler_188,mohler,mohler_1.7,1,5.0,"Correct: while tests first, do...while runs once before testing."
+mohler_190,mohler,mohler_1.7,1,5.0,"Correct: do...while always executes at least once, while may not execute."
+mohler_198,mohler,mohler_1.7,1,5.0,Correct and clear explanation of the difference.
+mohler_205,mohler,mohler_2.1,1,5.0,Correct: data members and member functions of the class.
+mohler_209,mohler,mohler_2.1,1,5.0,Correct: data members and member functions.
+mohler_211,mohler,mohler_2.1,1,5.0,Correct: data members and member functions.
+mohler_216,mohler,mohler_2.1,1,2.5,Mentions functions only and omits data members.
+mohler_223,mohler,mohler_2.1,1,5.0,Correct: data members and member functions.
+mohler_227,mohler,mohler_2.1,1,2.5,Lists syntax elements rather than the data members and member functions.
+mohler_230,mohler,mohler_2.1,1,5.0,Correct: functions and data members belonging to the class.
+mohler_239,mohler,mohler_2.2,1,2.5,Describes local variable scope only; no contrast with data members.
+mohler_251,mohler,mohler_2.2,1,5.0,Correct contrast of class-wide data members and function-local variables.
+mohler_268,mohler,mohler_2.3,1,3.5,"Constructor role is right, but the contrast with a function is weak."
+mohler_271,mohler,mohler_2.3,1,4.0,Correct key difference: constructors are called automatically on creation.
+mohler_273,mohler,mohler_2.3,1,3.0,Defines a constructor but gives no contrast with an ordinary function.
+mohler_287,mohler,mohler_2.3,1,4.0,Correct difference: constructors have no return type.
+mohler_298,mohler,mohler_2.4,1,1.0,"Incorrect; it is created when no constructor is defined, not when no arguments are passed."
+mohler_299,mohler,mohler_2.4,1,4.5,Correct: when the class has no constructor defined.
+mohler_300,mohler,mohler_2.4,1,1.5,Vague and largely incorrect timing.
+mohler_308,mohler,mohler_2.4,1,4.5,Correct: created when no constructor is declared.
+mohler_309,mohler,mohler_2.4,1,4.5,Correct: compiler provides it unless you define one.
+mohler_313,mohler,mohler_2.4,1,5.0,Correct: when you do not provide your own constructor.
+mohler_318,mohler,mohler_2.4,1,5.0,Correct: when no constructor is explicitly included.
+mohler_324,mohler,mohler_2.5,1,5.0,"Correct: any number, as long as parameter lists differ."
+mohler_328,mohler,mohler_2.5,1,0.0,Incorrect; a class can have many overloaded constructors.
+mohler_330,mohler,mohler_2.5,1,0.0,Incorrect; a class can have many overloaded constructors.
+mohler_332,mohler,mohler_2.5,1,4.5,"Correct, though it omits the need for different parameter lists."
+mohler_336,mohler,mohler_2.5,1,4.0,Essentially correct that as many as needed can be created.
+mohler_339,mohler,mohler_2.5,1,4.0,Correct that the number is unlimited.
+mohler_348,mohler,mohler_2.5,1,4.5,Correct: constructors can be overloaded as needed.
+mohler_350,mohler,mohler_2.5,1,0.0,Incorrect; a class can have many overloaded constructors.
+mohler_357,mohler,mohler_2.6,1,3.0,Defines a prototype well but does not contrast it with a definition.
+mohler_360,mohler,mohler_2.6,1,4.5,Correct contrast between declaration of name and parameters and the code body.
+mohler_364,mohler,mohler_2.6,1,4.0,Correct: prototype has no body; definition contains the code.
+mohler_371,mohler,mohler_2.6,1,3.5,Captures the contrast but the wording about classes and compilation is imprecise.
+mohler_373,mohler,mohler_2.6,1,4.0,"Correct contrast, though the prototype also gives name and return type."
+mohler_375,mohler,mohler_2.6,1,4.5,Correct contrast of declaration versus full implementation.
+mohler_376,mohler,mohler_2.6,1,4.0,Correct contrast between declaring parameters and providing the code.
+mohler_385,mohler,mohler_2.7,1,4.5,Correct: holds class definitions so they can be recognised elsewhere.
+mohler_395,mohler,mohler_2.7,1,3.5,Partly correct; header files declare classes and their functions.
+mohler_405,mohler,mohler_2.7,1,4.0,Correct: declares a class with its data and functions.
+mohler_406,mohler,mohler_2.7,1,3.5,Captures sharing across files but lacks specifics.
+mohler_407,mohler,mohler_2.7,1,4.0,Correct: lets the compiler recognise classes used elsewhere.
+mohler_409,mohler,mohler_2.7,1,2.5,"Reusability is a benefit, not a clear description of the role."
+mohler_410,mohler,mohler_2.7,1,3.5,Correct but very brief.
+mohler_413,mohler,mohler_3.1,1,3.5,Name and parameter types are right; the description part is not part of a signature.
+mohler_414,mohler,mohler_3.1,1,2.5,"Includes return type, which is not part of the signature."
+mohler_418,mohler,mohler_3.1,1,3.0,Name and parameters are right; scope is not part of the signature.
+mohler_419,mohler,mohler_3.1,1,5.0,"Correct: function name and parameter list, excluding return type."
+mohler_420,mohler,mohler_3.1,1,2.0,Return type is not part of the signature; name is missing.
+mohler_422,mohler,mohler_3.1,1,5.0,Correct: name and argument types.
+mohler_423,mohler,mohler_3.1,1,5.0,Correct: name and argument types.
+mohler_428,mohler,mohler_3.1,1,5.0,"Correct: name and argument types, not the return type."
+mohler_432,mohler,mohler_3.1,1,5.0,Correct: name and argument types.
+mohler_440,mohler,mohler_3.1,1,4.5,Correct: function name and parameters.
+mohler_449,mohler,mohler_3.2,1,3.5,Partly correct; the header file condition is not essential to global scope.
+mohler_451,mohler,mohler_3.2,1,1.0,Incorrect description of global scope.
+mohler_452,mohler,mohler_3.2,1,5.0,"Correct: file scope, known to all functions in the file."
+mohler_456,mohler,mohler_3.2,1,4.0,"Correct, though file scope is more precise."
+mohler_463,mohler,mohler_3.2,1,4.0,Correct but brief.
+mohler_464,mohler,mohler_3.2,1,5.0,Correct: global variables have file scope.
+mohler_467,mohler,mohler_3.2,1,4.0,Correct that any function can use it.
+mohler_468,mohler,mohler_3.2,1,4.5,Correct: the entire file or program.
+mohler_470,mohler,mohler_3.2,1,3.5,Correct idea but very brief.
+mohler_478,mohler,mohler_3.3,1,3.0,"True that the compiler may ignore inline, but misses that it expands the code in place."
+mohler_480,mohler,mohler_3.3,1,1.0,"Describes declaring and calling, not how the compiler handles inline functions."
+mohler_483,mohler,mohler_3.3,1,5.0,"Correct: the function code is copied in place, avoiding a call."
+mohler_490,mohler,mohler_3.3,1,5.0,Correct: code is expanded in place without a function call.
+mohler_502,mohler,mohler_3.3,1,4.5,Correct but brief.
+mohler_509,mohler,mohler_3.4,1,4.5,Correct: avoids copying large objects.
+mohler_513,mohler,mohler_3.4,1,4.5,Correct: avoids unnecessary copying.
+mohler_516,mohler,mohler_3.4,1,4.0,Correct: allows the function to modify the caller's data.
+mohler_520,mohler,mohler_3.4,1,5.0,Correct: eliminates copying large data.
+mohler_521,mohler,mohler_3.4,1,5.0,Correct and complete: efficiency and direct modification.
+mohler_523,mohler,mohler_3.4,1,4.5,Correct: less overhead and direct modification.
+mohler_534,mohler,mohler_3.4,1,4.0,Correct: the function can modify the argument.
+mohler_541,mohler,mohler_3.5,1,5.0,"Correct: by number, types and order of arguments."
+mohler_542,mohler,mohler_3.5,1,3.0,Partly correct; parameter types matter but number and order are omitted.
+mohler_551,mohler,mohler_3.5,1,4.5,Correct: by their parameters.
+mohler_554,mohler,mohler_3.5,1,4.5,Correct: by their signature.
+mohler_557,mohler,mohler_3.5,1,4.5,"Correct: same name, different parameters."
+mohler_563,mohler,mohler_3.5,1,4.0,Correct but minimal.
+mohler_567,mohler,mohler_3.5,1,1.0,Confuses overloading with overriding.
+mohler_574,mohler,mohler_3.6,1,5.0,Correct: missing base case or not converging to it.
+mohler_577,mohler,mohler_3.6,1,5.0,Correct: omitted base case or faulty recursive step.
+mohler_579,mohler,mohler_3.6,1,5.0,Correct and complete.
+mohler_581,mohler,mohler_3.6,1,5.0,Correct and complete.
+mohler_585,mohler,mohler_3.6,1,2.5,Vague; does not name the missing or unreachable base case.
+mohler_586,mohler,mohler_3.6,1,5.0,Correct: no base case or no reduction toward it.
+mohler_588,mohler,mohler_3.6,1,5.0,Correct and complete.
+mohler_590,mohler,mohler_3.6,1,5.0,Correct and complete.
+mohler_591,mohler,mohler_3.6,1,4.5,"Correct, though not converging is phrased loosely."
+mohler_595,mohler,mohler_3.6,1,4.5,Correct: base case missing or not reachable.
+mohler_601,mohler,mohler_3.7,1,4.5,"Correct: control statements, repetition, possible infinite execution."
+mohler_604,mohler,mohler_3.7,1,4.5,Correct and fairly complete.
+mohler_606,mohler,mohler_3.7,1,3.0,Equivalence is true but other similarities are missing.
+mohler_607,mohler,mohler_3.7,1,4.0,Correct: repetition and a termination test.
+mohler_608,mohler,mohler_3.7,1,4.0,Correct: repetition and risk of infinite execution.
+mohler_610,mohler,mohler_3.7,1,5.0,Complete list of similarities.
+mohler_613,mohler,mohler_3.7,1,4.0,Correct: both solve the same problems and can run forever.
+mohler_616,mohler,mohler_3.7,1,3.0,Correct but very limited.
+mohler_618,mohler,mohler_3.7,1,4.5,"Correct: control statement, repetition, termination test."
+mohler_621,mohler,mohler_3.7,1,5.0,Complete list of similarities.
+mohler_628,mohler,mohler_3.7,1,3.0,Mentions the stopping condition only.
+mohler_629,mohler,mohler_3.7,1,3.5,Mentions repetition but spends most of the answer on differences.
+mohler_631,mohler,mohler_4.1,1,3.0,Partly correct; the claim that arrays grow as needed is wrong.
+mohler_632,mohler,mohler_4.1,1,5.0,Correct: initializer list or constant size.
+mohler_635,mohler,mohler_4.1,1,5.0,Correct: size in the declaration or an initializer list.
+mohler_650,mohler,mohler_4.1,1,5.0,Correct: size in brackets or an initializer list.
+mohler_655,mohler,mohler_4.1,1,5.0,Correct: initializer list or constant size.
+mohler_666,mohler,mohler_4.2,1,1.0,Confused; it is the char array that needs a null terminator.
+mohler_669,mohler,mohler_4.2,1,5.0,Correct: string class functionality and implicit null handling.
+mohler_673,mohler,mohler_4.2,1,1.5,Inaccurate claims about modifying strings.
+mohler_679,mohler,mohler_4.2,1,3.5,"Correct that char arrays need a terminator and size, but no contrast with string."
+mohler_687,mohler,mohler_4.2,1,1.0,Incorrect; characters in a string object can be modified.
+mohler_689,mohler,mohler_4.2,1,1.5,Rambling; does not state the key difference.
+mohler_691,mohler,mohler_4.3,1,3.0,Partly correct; the address of the first element is passed.
+mohler_693,mohler,mohler_4.3,1,0.0,No valid answer was given.
+mohler_699,mohler,mohler_4.3,1,3.5,Passing the size is right but misses that arrays are passed by reference.
+mohler_701,mohler,mohler_4.3,1,4.5,Correct: arrays are passed by reference.
+mohler_704,mohler,mohler_4.3,1,4.5,Correct: by reference.
+mohler_707,mohler,mohler_4.3,1,5.0,"Correct, with the const detail."
+mohler_708,mohler,mohler_4.3,1,3.5,Correct that name and size are passed but misses passing by reference.
+mohler_709,mohler,mohler_4.3,1,4.5,"Correct: name passed, by reference."
+mohler_710,mohler,mohler_4.3,1,4.0,"Correct calling convention, missing the by-reference point."
+mohler_711,mohler,mohler_4.3,1,5.0,Correct and complete.
+mohler_712,mohler,mohler_4.3,1,4.5,Correct: by reference.
+mohler_714,mohler,mohler_4.3,1,4.5,Correct: by reference.
+mohler_715,mohler,mohler_4.3,1,4.5,Correct: by reference.
+mohler_719,mohler,mohler_4.3,1,0.5,Does not describe how arrays are passed.
+mohler_723,mohler,mohler_4.4,1,3.5,Initialisation detail is right but the claim about non-static arrays is wrong.
+mohler_734,mohler,mohler_4.4,1,0.5,"Describes static members and namespaces, not static arrays."
+mohler_739,mohler,mohler_4.4,1,4.5,Correct: not recreated or destroyed with each call.
+mohler_742,mohler,mohler_4.4,1,2.5,Partly right but vague.
+mohler_743,mohler,mohler_4.4,1,5.0,Correct: static arrays persist until the program ends.
+mohler_764,mohler,mohler_4.5,1,0.0,Incorrect; all dimensions except the first must be specified.
+mohler_765,mohler,mohler_4.5,1,5.0,"Correct: all but the first dimension, with a good explanation."
+mohler_767,mohler,mohler_4.5,1,1.5,Incorrect; the first dimension can be omitted.
+mohler_775,mohler,mohler_4.5,1,0.5,Incorrect; all dimensions except the first are needed.
+mohler_779,mohler,mohler_4.5,1,1.0,Vague and does not answer the question.
+mohler_793,mohler,mohler_5.1,1,3.5,"Captures inserting into the sorted left part, but the random choice is wrong."
+mohler_794,mohler,mohler_5.1,1,4.5,Correct: inserts each next element into the sorted part.
+mohler_796,mohler,mohler_5.1,1,3.5,Partly correct; pivot wording is inaccurate.
+mohler_799,mohler,mohler_5.1,1,4.5,Correct: elements taken one by one into the sorted part.
+mohler_800,mohler,mohler_5.1,1,5.0,Correct: each element is inserted at its right position.
+mohler_803,mohler,mohler_5.1,1,4.0,"Correct, though more than one sentence."
+mohler_804,mohler,mohler_5.1,1,2.5,"Inaccurate; elements are compared with the sorted part, not only the first element."
+mohler_812,mohler,mohler_5.2,1,5.0,Correct: repeatedly select the minimum and place it next.
+mohler_813,mohler,mohler_5.2,1,5.0,Correct: select the minimum and place it in the next slot.
+mohler_818,mohler,mohler_5.2,1,5.0,"Correct: find the minimum, swap it to the front, repeat."
+mohler_837,mohler,mohler_5.3,1,5.0,Correct: O(n) with n-1 comparisons when the list is already sorted.
+mohler_839,mohler,mohler_5.3,1,4.0,"Correct O(n) bound, but the remark about one swap is confused."
+mohler_842,mohler,mohler_5.3,1,2.5,Gives O(n) but does not state the best-case scenario.
+mohler_856,mohler,mohler_5.3,1,4.5,Correct: about n operations when the list is already sorted.
+mohler_865,mohler,mohler_5.4,1,5.0,Correct: a sequence with fewer than two elements.
+mohler_868,mohler,mohler_5.4,1,4.5,Correct: a single element to sort.
+mohler_875,mohler,mohler_5.4,1,4.5,Correct: a single element.
+mohler_877,mohler,mohler_5.4,1,0.0,"Gives the complexity, not the base case."
+mohler_882,mohler,mohler_5.4,1,5.0,Correct: length less than or equal to one.
+mohler_889,mohler,mohler_5.4,1,2.0,Vague; does not state the one-element base case.
+mohler_890,mohler,mohler_5.4,1,5.0,Correct: list size less than or equal to one.
+mohler_892,mohler,mohler_6.1,1,4.0,"Correct idea of storing another address, though a pointer is a variable rather than a location."
+mohler_896,mohler,mohler_6.1,1,5.0,Correct: a value referring to another value by its address.
+mohler_897,mohler,mohler_6.1,1,4.0,Correct but brief: it holds a memory location.
+mohler_903,mohler,mohler_6.1,1,3.5,Correct idea but imprecise wording.
+mohler_908,mohler,mohler_6.1,1,5.0,Correct: a typed variable holding the address of another variable.
+mohler_910,mohler,mohler_6.1,1,3.5,Captures the address idea but the wording is imprecise.
+mohler_917,mohler,mohler_6.1,1,4.0,"Correct that it is an address, with some unnecessary detail."
+mohler_924,mohler,mohler_6.2,1,5.0,Correct: the address where the data is stored.
+mohler_929,mohler,mohler_6.2,1,5.0,Correct: the memory address of the item.
+mohler_934,mohler,mohler_6.2,1,2.5,"Imprecise; it returns an address, not a reference."
+mohler_935,mohler,mohler_6.2,1,5.0,Correct: the memory address of its operand.
+mohler_937,mohler,mohler_6.2,1,5.0,Correct: the address of the variable.
+mohler_938,mohler,mohler_6.2,1,5.0,Correct and well explained.
+mohler_945,mohler,mohler_6.3,1,5.0,Correct: a synonym for the object the pointer points to.
+mohler_953,mohler,mohler_6.3,1,5.0,Correct.
+mohler_954,mohler,mohler_6.3,1,4.5,Correct: the value at the pointed-to address.
+mohler_959,mohler,mohler_6.3,1,4.5,Correct: the value of the object pointed to.
+mohler_963,mohler,mohler_6.3,1,5.0,Correct.
+mohler_966,mohler,mohler_6.3,1,1.5,Unclear and largely incorrect.
+mohler_976,mohler,mohler_6.4,1,4.5,Correct notation *(array + offset).
+mohler_979,mohler,mohler_6.4,1,4.5,Correct notation *(array + index).
+mohler_983,mohler,mohler_6.4,1,3.5,Shows address equivalence but not dereferencing the element.
+mohler_986,mohler,mohler_6.4,1,4.5,Correct pointer/offset notation.
+mohler_987,mohler,mohler_6.4,1,5.0,Correct with an example.
+mohler_989,mohler,mohler_6.4,1,3.5,Captures pointer arithmetic but omits dereferencing.
+mohler_991,mohler,mohler_6.4,1,3.0,"Address equivalence only, with an error in the notation."
+mohler_992,mohler,mohler_6.4,1,5.0,Correct: a[i] equals *(a+i).
+mohler_998,mohler,mohler_6.5,1,5.0,Correct: size of the operand in bytes.
+mohler_1001,mohler,mohler_6.5,1,3.5,Correct idea but omits that the size is in bytes.
+mohler_1016,mohler,mohler_6.5,1,4.5,"Correct, with the compile-time detail."
+mohler_1021,mohler,mohler_6.5,1,5.0,Correct and complete.
+mohler_1032,mohler,mohler_6.6,1,3.5,"Lists by value and by reference, but not the four const/non-const combinations."
+mohler_1035,mohler,mohler_6.6,1,5.0,Correct: the four constant/non-constant pointer and data combinations.
+mohler_1037,mohler,mohler_6.6,1,3.0,Only distinguishes reference and pointer arguments.
+mohler_1038,mohler,mohler_6.6,1,1.5,Vague and imprecise.
+mohler_1052,mohler,mohler_6.7,1,4.5,Correct: holds the address of the function.
+mohler_1053,mohler,mohler_6.7,1,3.0,Describes calling through it rather than what it is.
+mohler_1058,mohler,mohler_6.7,1,5.0,Correct.
+mohler_1065,mohler,mohler_6.7,1,5.0,Correct.
+mohler_1067,mohler,mohler_6.7,1,4.5,Correct.
+mohler_1069,mohler,mohler_6.7,1,5.0,Correct.
+mohler_1075,mohler,mohler_7.1,1,4.5,Correct: each item points to the next.
+mohler_1078,mohler,mohler_7.1,1,5.0,Correct and complete.
+mohler_1093,mohler,mohler_7.1,1,5.0,Correct and complete.
+mohler_1095,mohler,mohler_7.1,1,3.0,"Imprecise: nodes hold data and pointers, not just pointers."
+mohler_1101,mohler,mohler_7.2,1,5.0,Correct: insertion and deletion without shifting and dynamic size.
+mohler_1105,mohler,mohler_7.2,1,4.0,Correct points but verbose and partly off the main advantage.
+mohler_1106,mohler,mohler_7.2,1,4.5,Correct: no need to predetermine size.
+mohler_1111,mohler,mohler_7.2,1,4.5,Correct: constant-time insertion and deletion.
+mohler_1113,mohler,mohler_7.2,1,4.5,Correct: dynamic size and easy insertion and removal.
+mohler_1114,mohler,mohler_7.2,1,4.0,Correct: dynamic size.
+mohler_1121,mohler,mohler_7.2,1,3.5,Correct but minimal.
+mohler_1126,mohler,mohler_7.3,1,4.5,Correct: direct access versus traversal.
+mohler_1128,mohler,mohler_7.3,1,5.0,Correct: fast direct access.
+mohler_1134,mohler,mohler_7.3,1,1.0,Incorrect reasoning.
+mohler_1138,mohler,mohler_7.3,1,1.5,Not the main advantage.
+mohler_1139,mohler,mohler_7.3,1,4.5,Correct: direct indexed access.
+mohler_1142,mohler,mohler_7.3,1,3.5,A valid advantage but not the main one.
+mohler_1144,mohler,mohler_7.3,1,5.0,Correct: random access versus sequential access.
+mohler_1146,mohler,mohler_7.3,1,3.5,A valid advantage but not the main one.
+mohler_1158,mohler,mohler_7.4,1,4.5,Correct: pass a pointer to the head.
+mohler_1161,mohler,mohler_7.4,1,5.0,Correct: pass the head pointer by reference.
+mohler_1163,mohler,mohler_7.4,1,4.0,Correct but less precise.
+mohler_1167,mohler,mohler_7.4,1,4.0,Correct: the head pointer gives access to the whole list.
+mohler_1179,mohler,mohler_7.5,1,5.0,Correct: the last node links back to the head.
+mohler_1191,mohler,mohler_7.5,1,5.0,Correct: null end versus link back to the beginning.
+mohler_1193,mohler,mohler_7.5,1,4.5,Correct.
+mohler_1194,mohler,mohler_7.5,1,5.0,Correct and complete.
+mohler_1197,mohler,mohler_7.5,1,5.0,Correct.
+mohler_1201,mohler,mohler_7.5,1,5.0,Correct.
+mohler_1204,mohler,mohler_7.6,1,4.5,Correct: traversal in both directions.
+mohler_1206,mohler,mohler_7.6,1,4.5,Correct: deletion without a trailing pointer.
+mohler_1211,mohler,mohler_7.6,1,4.5,Correct.
+mohler_1212,mohler,mohler_7.6,1,4.5,"Correct, with useful trade-off detail."
+mohler_1216,mohler,mohler_7.6,1,4.0,Correct: backward movement.
+mohler_1220,mohler,mohler_7.6,1,3.5,"Correct structure, but the claim of no special cases is doubtful."
+mohler_1227,mohler,mohler_7.6,1,4.0,Correct: can move back without restarting.
+mohler_1231,mohler,mohler_7.7,1,4.5,Correct: more pointers and more complex operations.
+mohler_1233,mohler,mohler_7.7,1,4.0,Correct: insertion and deletion are more involved.
+mohler_1239,mohler,mohler_7.7,1,3.5,Correct but brief.
+mohler_1240,mohler,mohler_7.7,1,5.0,Correct: more memory and two pointers to update.
+mohler_1256,mohler,mohler_8.1,1,4.5,Correct: LIFO storage.
+mohler_1263,mohler,mohler_8.1,1,4.5,"Correct: last in, first out."
+mohler_1265,mohler,mohler_8.1,1,2.0,Too generic; omits LIFO.
+mohler_1274,mohler,mohler_8.1,1,2.0,Too generic; omits LIFO.
+mohler_1275,mohler,mohler_8.1,1,4.0,Correct: LIFO collection.
+mohler_1278,mohler,mohler_8.1,1,4.5,Correct: last inserted is first removed.
+mohler_1279,mohler,mohler_8.1,1,4.0,Correct: only the last element is accessible.
+mohler_1284,mohler,mohler_8.2,1,5.0,Correct: push and pop explained.
+mohler_1288,mohler,mohler_8.2,1,5.0,Correct.
+mohler_1295,mohler,mohler_8.2,1,5.0,Correct.
+mohler_1306,mohler,mohler_8.2,1,5.0,Correct.
+mohler_1313,mohler,mohler_8.3,1,4.5,Correct: track the top index and adjust on push and pop.
+mohler_1314,mohler,mohler_8.3,1,3.5,Correct idea but imprecise.
+mohler_1325,mohler,mohler_8.3,1,5.0,Correct and complete.
+mohler_1331,mohler,mohler_8.3,1,3.0,Partial; no top index handling.
+mohler_1335,mohler,mohler_8.3,1,4.5,Correct: fixed array with a count of elements.
+mohler_1341,mohler,mohler_8.4,1,5.0,Correct: head is the top.
+mohler_1344,mohler,mohler_8.4,1,5.0,Correct.
+mohler_1347,mohler,mohler_8.4,1,3.0,Works but inefficient and unclear.
+mohler_1353,mohler,mohler_8.4,1,3.0,Works for a doubly linked list but less efficient and unclear.
+mohler_1356,mohler,mohler_8.4,1,3.5,Partly correct; does not say push and pop at the head.
+mohler_1381,mohler,mohler_8.6,1,4.5,"Correct: convert to postfix, then evaluate."
+mohler_1382,mohler,mohler_8.6,1,4.0,Correct conversion idea with details.
+mohler_1386,mohler,mohler_8.6,1,3.5,Describes postfix evaluation with a stack but omits conversion.
+mohler_1387,mohler,mohler_8.6,1,4.5,Correct: convert to postfix and use a stack.
+mohler_1388,mohler,mohler_8.6,1,3.5,Correct conversion idea but no evaluation step.
+mohler_1394,mohler,mohler_8.7,1,5.0,"Correct: pop to a temporary stack, compare, then restore."
+mohler_1397,mohler,mohler_8.7,1,3.5,Pop and compare is right but restoring the stack is omitted.
+mohler_1403,mohler,mohler_8.7,1,5.0,Correct and complete.
+mohler_1406,mohler,mohler_8.7,1,3.5,"Pop until found, but no restoration of the stack."
+mohler_1415,mohler,mohler_8.7,1,3.5,"Correct idea, but pushing back immediately would not work."
+mohler_1419,mohler,mohler_9.1,1,3.0,Order is implied but FIFO is not clearly stated.
+mohler_1427,mohler,mohler_9.1,1,5.0,Correct and complete: FIFO with rear insertion and front removal.
+mohler_1428,mohler,mohler_9.1,1,3.5,"Correct FIFO idea, comparison is loose."
+mohler_1436,mohler,mohler_9.1,1,4.0,Correct: ordered FIFO list.
+mohler_1437,mohler,mohler_9.1,1,4.0,Correct: FIFO.
+mohler_1438,mohler,mohler_9.1,1,4.5,Correct: first added is first removed.
+mohler_1445,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1446,mohler,mohler_9.2,1,4.0,"Correct names, though insertion is at the rear, not the head."
+mohler_1447,mohler,mohler_9.2,1,5.0,Correct and complete.
+mohler_1448,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1453,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1454,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1460,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1461,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1462,mohler,mohler_9.2,1,5.0,Correct.
+mohler_1473,mohler,mohler_9.3,1,3.0,Vague on how FIFO is maintained.
+mohler_1474,mohler,mohler_9.3,1,3.5,Correct idea but no front/rear tracking or wrap-around.
+mohler_1475,mohler,mohler_9.3,1,2.0,Does not explain the implementation.
+mohler_1478,mohler,mohler_9.3,1,4.5,"Correct, mentioning shifting or a circular array."
+mohler_1481,mohler,mohler_9.3,1,2.0,Only states fixed size.
+mohler_1495,mohler,mohler_9.3,1,4.0,Correct: head and tail indices with wrap handling.
+mohler_1511,mohler,mohler_9.4,1,3.0,Works only if the ends are handled correctly; reversed from the usual.
+mohler_1523,mohler,mohler_9.4,1,3.0,Partial: a back pointer is needed but operations are not described.
+mohler_1525,mohler,mohler_9.4,1,3.5,Shows enqueue code with front and rear but no explanation.
+mohler_1528,mohler,mohler_9.6,1,5.0,Correct: push.
+mohler_1536,mohler,mohler_9.6,1,5.0,Correct: push.
+mohler_1537,mohler,mohler_9.6,1,5.0,Correct: push.
+mohler_1542,mohler,mohler_9.6,1,5.0,Correct: push.
+mohler_1551,mohler,mohler_9.6,1,5.0,Correct: push.
+mohler_1554,mohler,mohler_10.1,1,5.0,Correct formal definition.
+mohler_1561,mohler,mohler_10.1,1,4.0,Correct but incomplete.
+mohler_1563,mohler,mohler_10.1,1,4.0,Correct: hierarchically linked nodes.
+mohler_1565,mohler,mohler_10.1,1,2.0,Describes a binary search tree rather than a tree.
+mohler_1582,mohler,mohler_10.2,1,5.0,Correct: root to the furthest leaf.
+mohler_1595,mohler,mohler_10.2,1,4.0,Correct idea: number of levels.
+mohler_1602,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1605,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1612,mohler,mohler_10.3,1,3.5,Roughly right but imprecise.
+mohler_1614,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1615,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1621,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1623,mohler,mohler_10.3,1,5.0,Correct.
+mohler_1627,mohler,mohler_10.4,1,5.0,Correct and complete.
+mohler_1629,mohler,mohler_10.4,1,5.0,Correct.
+mohler_1635,mohler,mohler_10.4,1,3.5,Correct property but confuses it with a binary search tree.
+mohler_1639,mohler,mohler_10.4,1,5.0,Correct.
+mohler_1642,mohler,mohler_10.4,1,4.0,Correct: at most two child pointers.
+mohler_1644,mohler,mohler_10.4,1,3.5,Says exactly two children instead of at most two.
+mohler_1646,mohler,mohler_10.4,1,4.0,"Correct child counts, but it is not a search tree."
+mohler_1653,mohler,mohler_10.5,1,4.5,Correct ordering idea and search method.
+mohler_1658,mohler,mohler_10.5,1,2.0,Too vague.
+mohler_1661,mohler,mohler_10.5,1,2.5,Vague; ordering rule not stated.
+mohler_1667,mohler,mohler_10.5,1,5.0,Correct ordering property.
+mohler_1669,mohler,mohler_10.5,1,5.0,Correct ordering property.
+mohler_1673,mohler,mohler_10.6,1,5.0,"Correct: left, node, right."
+mohler_1677,mohler,mohler_10.6,1,5.0,Correct.
+mohler_1682,mohler,mohler_10.6,1,0.0,Incorrect; that is a different traversal.
+mohler_1687,mohler,mohler_10.6,1,2.0,Too vague.
+mohler_1689,mohler,mohler_10.6,1,5.0,Correct.
+mohler_1690,mohler,mohler_10.6,1,5.0,Correct.
+mohler_1694,mohler,mohler_10.6,1,4.0,Correct but convoluted.
+mohler_1698,mohler,mohler_10.7,1,5.0,Correct: log n.
+mohler_1702,mohler,mohler_10.7,1,5.0,Correct.
+mohler_1708,mohler,mohler_10.7,1,0.5,Incorrect.
+mohler_1709,mohler,mohler_10.7,1,5.0,Correct.
+mohler_1711,mohler,mohler_10.7,1,2.0,Worst case only; the expected answer is log n.
+mohler_1714,mohler,mohler_10.7,1,4.5,Correct: one comparison per level.
+mohler_1715,mohler,mohler_10.7,1,5.0,Correct with balanced-tree detail.
+mohler_1716,mohler,mohler_10.7,1,5.0,Correct.
+mohler_1727,mohler,mohler_11.1,1,4.5,Correct: data members and functions.
+mohler_1733,mohler,mohler_11.1,1,3.5,Partly correct.
+mohler_1739,mohler,mohler_11.1,1,5.0,Correct.
+mohler_1749,mohler,mohler_11.1,1,4.5,Correct.
+mohler_1750,mohler,mohler_11.1,1,0.5,Incorrect.
+mohler_1757,mohler,mohler_11.2,1,3.5,Omits protected.
+mohler_1760,mohler,mohler_11.2,1,5.0,"Correct: private, public, protected."
+mohler_1765,mohler,mohler_11.2,1,3.0,Static is not an access specifier; protected is missing.
+mohler_1767,mohler,mohler_11.2,1,3.5,Omits protected.
+mohler_1773,mohler,mohler_11.2,1,5.0,Correct.
+mohler_1774,mohler,mohler_11.2,1,2.5,"Friend is not an access specifier and the default is private, not public."
+mohler_1776,mohler,mohler_11.2,1,3.5,Omits protected.
+mohler_1785,mohler,mohler_11.3,1,0.5,Incorrect.
+mohler_1796,mohler,mohler_11.3,1,4.0,"Correct: constructors initialise objects, with a default if none."
+mohler_1800,mohler,mohler_11.3,1,3.5,Correct but incomplete.
+mohler_1803,mohler,mohler_11.3,1,2.5,Vague; does not mention constructors.
+mohler_1806,mohler,mohler_11.3,1,1.5,Too vague.
+mohler_1816,mohler,mohler_11.4,1,1.5,Too vague; does not say it is the name and parameter types.
+mohler_1817,mohler,mohler_11.4,1,3.0,"Name and parameters are right, but return type is not part of the signature."
+mohler_1825,mohler,mohler_11.4,1,4.5,Correct: name and parameters.
+mohler_1826,mohler,mohler_11.4,1,5.0,"Correct and complete, noting return type is excluded."
+mohler_1830,mohler,mohler_11.4,1,2.5,Scope and type are not part of the signature.
+mohler_1834,mohler,mohler_11.4,1,3.5,Parameter types are right but the function name is omitted.
+mohler_1835,mohler,mohler_11.4,1,4.5,Correct: function name and parameters.
+mohler_1836,mohler,mohler_11.4,1,4.5,Correct: function name and parameters.
+mohler_1841,mohler,mohler_11.5,1,5.0,Correct: calls itself on simpler forms until a base case.
+mohler_1844,mohler,mohler_11.5,1,2.5,Confused wording; a base case does not call itself.
+mohler_1852,mohler,mohler_11.5,1,4.5,Correct but brief.
+mohler_1853,mohler,mohler_11.5,1,5.0,Correct.
+mohler_1855,mohler,mohler_11.5,1,5.0,Correct.
+mohler_1856,mohler,mohler_11.5,1,5.0,Correct and thorough.
+mohler_1862,mohler,mohler_11.5,1,4.5,Correct.
+mohler_1863,mohler,mohler_11.5,1,4.5,Correct.
+mohler_1865,mohler,mohler_11.5,1,4.5,Correct despite spelling.
+mohler_1867,mohler,mohler_11.5,1,5.0,Correct.
+mohler_1869,mohler,mohler_11.5,1,4.5,Correct.
+mohler_1882,mohler,mohler_11.6,1,4.5,Correct: iteration.
+mohler_1883,mohler,mohler_11.6,1,5.0,Correct: iteration.
+mohler_1885,mohler,mohler_11.6,1,5.0,Correct: loops.
+mohler_1886,mohler,mohler_11.6,1,5.0,Correct: iteration.
+mohler_1896,mohler,mohler_11.6,1,5.0,Correct: iteration with loops.
+mohler_1898,mohler,mohler_11.6,1,5.0,Correct.
+mohler_1905,mohler,mohler_11.7,1,3.0,Vague; the key point is retaining values between calls.
+mohler_1910,mohler,mohler_11.7,1,5.0,Correct: values persist between function calls.
+mohler_1912,mohler,mohler_11.7,1,0.0,Incorrect.
+mohler_1916,mohler,mohler_11.7,1,4.0,Mostly correct about persistence versus re-initialisation.
+mohler_1922,mohler,mohler_11.7,1,0.5,Confused and incorrect.
+mohler_1932,mohler,mohler_11.8,1,0.5,Does not address the difference.
+mohler_1935,mohler,mohler_11.8,1,0.0,Incorrect.
+mohler_1944,mohler,mohler_11.8,1,3.0,"Right idea of a terminator in char arrays, but calls it end of line."
+mohler_1946,mohler,mohler_11.8,1,1.0,Reversed; the char array has the null terminator.
+mohler_1954,mohler,mohler_11.8,1,3.0,"Partly correct about objects versus arrays, but misses the null terminator."
+mohler_1957,mohler,mohler_11.8,1,4.5,Correct: char array includes a null character.
+mohler_1958,mohler,mohler_11.8,1,2.0,Ambiguous about which type has the null character.
+mohler_1961,mohler,mohler_11.9,1,3.0,Describes dividing but not solving and combining.
+mohler_1965,mohler,mohler_11.9,1,2.0,Vague.
+mohler_1970,mohler,mohler_11.9,1,3.0,Dividing is described but not combining the results.
+mohler_1975,mohler,mohler_11.9,1,5.0,"Correct: divide, solve, combine."
+mohler_1987,mohler,mohler_11.9,1,1.0,"Describes modular design, not divide-and-conquer."
+mohler_2002,mohler,mohler_11.11,1,5.0,Correct.
+mohler_2013,mohler,mohler_11.11,1,5.0,Correct.
+mohler_2016,mohler,mohler_11.11,1,4.5,Correct.
+mohler_2024,mohler,mohler_12.1,1,5.0,Correct.
+mohler_2026,mohler,mohler_12.1,1,4.0,Correct but brief.
+mohler_2031,mohler,mohler_12.1,1,4.5,Correct.
+mohler_2040,mohler,mohler_12.1,1,4.0,Correct.
+mohler_2051,mohler,mohler_12.2,1,0.5,"Lists complexity classes, not the experimental approach."
+mohler_2053,mohler,mohler_12.2,1,4.5,Correct: implement and measure running time.
+mohler_2054,mohler,mohler_12.2,1,3.5,Partly correct; timing runs on varied inputs is implied.
+mohler_2056,mohler,mohler_12.2,1,0.0,No answer.
+mohler_2063,mohler,mohler_12.2,1,2.5,Counts calls rather than measuring time.
+mohler_2066,mohler,mohler_12.2,1,4.0,Correct timing idea; the CPU speed step is unnecessary.
+mohler_2077,mohler,mohler_12.4,1,5.0,Correct.
+mohler_2079,mohler,mohler_12.4,1,1.5,Vague and inaccurate.
+mohler_2080,mohler,mohler_12.4,1,0.0,Describes merge sort.
+mohler_2081,mohler,mohler_12.4,1,4.5,Correct.
+mohler_2088,mohler,mohler_12.4,1,3.0,"Partly correct, pivot wording is wrong."
+mohler_2091,mohler,mohler_12.4,1,4.5,Correct.
+mohler_2092,mohler,mohler_12.4,1,0.5,"Describes partitioning, not selection sort."
+mohler_2101,mohler,mohler_12.4,1,5.0,Correct.
+mohler_2111,mohler,mohler_12.5,1,5.0,Correct: dynamic size.
+mohler_2112,mohler,mohler_12.5,1,4.5,Correct.
+mohler_2117,mohler,mohler_12.5,1,4.5,Correct.
+mohler_2121,mohler,mohler_12.5,1,4.5,Correct.
+mohler_2125,mohler,mohler_12.5,1,4.0,Correct.
+mohler_2138,mohler,mohler_12.6,1,4.5,"Correct: insert at the end, remove from the front."
+mohler_2141,mohler,mohler_12.6,1,2.5,Vague; FIFO not stated.
+mohler_2142,mohler,mohler_12.6,1,2.5,Calls it FILO but then describes FIFO.
+mohler_2143,mohler,mohler_12.6,1,1.0,Incorrect; a queue is FIFO.
+mohler_2146,mohler,mohler_12.6,1,5.0,Correct.
+mohler_2153,mohler,mohler_12.6,1,5.0,Correct.
+mohler_2154,mohler,mohler_12.6,1,5.0,Correct and complete.
+mohler_2156,mohler,mohler_12.6,1,5.0,Correct.
+mohler_2169,mohler,mohler_12.7,1,5.0,Correct.
+mohler_2174,mohler,mohler_12.7,1,5.0,"Correct, with extra operations."
+mohler_2176,mohler,mohler_12.7,1,4.5,Correct.
+mohler_2179,mohler,mohler_12.7,1,5.0,Correct.
+mohler_2180,mohler,mohler_12.7,1,5.0,Correct.
+mohler_2187,mohler,mohler_12.7,1,5.0,Correct.
+mohler_2202,mohler,mohler_12.8,1,4.5,"Correct: each node visited from the left, below and right."
+mohler_2204,mohler,mohler_12.8,1,1.5,Describes an in-order traversal.
+mohler_2208,mohler,mohler_12.8,1,5.0,Correct: walk around the tree visiting each node three times.
+mohler_2212,mohler,mohler_12.8,1,3.5,"Captures walking around the tree, but vague."
+mohler_2215,mohler,mohler_12.8,1,0.0,Incorrect; that is level-order traversal.
+mohler_2216,mohler,mohler_12.8,1,2.5,Captures the idea of going around but no detail.
+mohler_2219,mohler,mohler_12.9,1,1.5,Vague; no handling of the different cases.
+mohler_2221,mohler,mohler_12.9,1,2.5,Does not handle nodes with children.
+mohler_2227,mohler,mohler_12.9,1,0.5,No method described.
+mohler_2232,mohler,mohler_12.9,1,4.5,"Correct: leaf removed directly, otherwise replace with predecessor or successor."
+mohler_2233,mohler,mohler_12.9,1,0.0,Describes deleting from a linked list.
+mohler_2242,mohler,mohler_12.9,1,3.0,"Correct goal of preserving ordering, but no method."
+mohler_2244,mohler,mohler_12.9,1,2.5,"Garbled, though cases are hinted at."
+mohler_2247,mohler,mohler_12.11,1,5.0,Correct: the number of levels or height.
+mohler_2250,mohler,mohler_12.11,1,4.5,Correct for a balanced tree.
+mohler_2255,mohler,mohler_12.11,1,4.5,Correct for a balanced tree.
+mohler_2257,mohler,mohler_12.11,1,4.5,Correct for a balanced tree.
+mohler_2260,mohler,mohler_12.11,1,4.5,Correct range from log n to n.
+mohler_2266,mohler,mohler_12.11,1,5.0,Correct: at most the number of levels.
+mohler_2268,mohler,mohler_12.11,1,4.5,Correct for a balanced tree.
+mohler_2269,mohler,mohler_12.11,1,0.0,Incorrect.
+mohler_2270,mohler,mohler_12.11,1,0.5,Incorrect.
+saf_TC_10.1.3,saf,saf_10.1,1,0.25,"Describes protocol behaviour, not header differences."
+saf_TC_10.1.7,saf,saf_10.1,1,1.0,Correct: lists several TCP header fields missing from UDP.
+saf_TC_10.1.18,saf,saf_10.1,1,1.0,Correct and complete header comparison.
+saf_TC_10.1.27,saf,saf_10.1,1,0.25,"Lists protocol properties, not header fields."
+saf_TC_10.1.40,saf,saf_10.1,1,0.0,No answer.
+saf_TC_10.1.41,saf,saf_10.1,1,1.0,Correct: four TCP-only header fields.
+saf_TC_10.1.61,saf,saf_10.1,1,1.0,Correct header field differences.
+saf_TC_10.1.63,saf,saf_10.1,1,1.0,Correct: four TCP-only fields.
+saf_TC_10.1.66,saf,saf_10.1,1,0.0,No answer.
+saf_TC_10.1.76,saf,saf_10.1,1,1.0,"Correct, with length and checksum differences."
+saf_TC_10.1.81,saf,saf_10.1,1,1.0,Correct header comparison.
+saf_TC_10.1.82,saf,saf_10.1,1,1.0,Correct header differences.
+saf_TC_10.1.87,saf,saf_10.1,1,0.0,No answer.
+saf_TC_10.1.93,saf,saf_10.1,1,1.0,Correct and complete.
+saf_TC_10.1.96,saf,saf_10.1,1,1.0,Correct header field differences.
+saf_TC_10.2.2,saf,saf_10.2,1,1.0,Correct and complete.
+saf_TC_10.2.6,saf,saf_10.2,1,0.875,"Mostly correct, but cwnd is incremented per ACK, not doubled per ACK."
+saf_TC_10.2.8,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.2.11,saf,saf_10.2,1,0.0,No answer.
+saf_TC_10.2.17,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.2.27,saf,saf_10.2,1,0.5,Phases named but cwnd and ss_thresh changes are muddled.
+saf_TC_10.2.30,saf,saf_10.2,1,0.875,Mostly correct but linear growth in congestion avoidance is not stated.
+saf_TC_10.2.35,saf,saf_10.2,1,1.0,Correct and complete.
+saf_TC_10.2.44,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.2.45,saf,saf_10.2,1,0.75,"cwnd resets to 1, not 0, and ss_thresh becomes cwnd/2."
+saf_TC_10.2.47,saf,saf_10.2,1,0.0,No answer.
+saf_TC_10.2.50,saf,saf_10.2,1,0.5,Loss does not move TCP to congestion avoidance and linear growth is missing.
+saf_TC_10.2.51,saf,saf_10.2,1,0.625,"Phase descriptions are mixed up, though reset rules are right."
+saf_TC_10.2.58,saf,saf_10.2,1,0.75,"Brief; ss_thresh is set to half of cwnd, not halved."
+saf_TC_10.2.59,saf,saf_10.2,1,0.75,Linear growth in congestion avoidance is missing.
+saf_TC_10.2.62,saf,saf_10.2,1,0.375,Phase 2 behaviour is wrong.
+saf_TC_10.2.65,saf,saf_10.2,1,1.0,Correct and complete.
+saf_TC_10.2.67,saf,saf_10.2,1,1.0,Correct and complete.
+saf_TC_10.2.68,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.2.79,saf,saf_10.2,1,0.25,Names phases but does not explain how cwnd and ss_thresh change.
+saf_TC_10.2.84,saf,saf_10.2,1,0.0,No answer.
+saf_TC_10.2.87,saf,saf_10.2,1,0.0,No answer.
+saf_TC_10.2.88,saf,saf_10.2,1,0.75,Linear growth in congestion avoidance is missing.
+saf_TC_10.2.92,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.2.93,saf,saf_10.2,1,1.0,Correct.
+saf_TC_10.3.4,saf,saf_10.3,1,0.875,"Covers table contents, forwarding decisions and a benefit, but backward learning is only vaguely described."
+saf_TC_10.3.5,saf,saf_10.3,1,0.5,"Learning is correct, but forwarding use and the benefit are missing."
+saf_TC_10.3.10,saf,saf_10.3,1,1.0,"Complete: contents, learning, forwarding and the benefit of reduced traffic."
+saf_TC_10.3.25,saf,saf_10.3,1,0.625,"Learning and benefit are given, but forwarding use is not explained."
+saf_TC_10.3.28,saf,saf_10.3,1,0.0,No answer.
+saf_TC_10.3.30,saf,saf_10.3,1,0.5,"Learning is described, but forwarding is vague and no benefit is given."
+saf_TC_10.3.35,saf,saf_10.3,1,1.0,"Complete and accurate, including timestamps and the benefit."
+saf_TC_10.3.37,saf,saf_10.3,1,1.0,"Complete: mapping, learning, forwarding and reduced traffic."
+saf_TC_10.3.43,saf,saf_10.3,1,0.375,Vague table content and learning; forwarding not explained.
+saf_TC_10.3.48,saf,saf_10.3,1,0.75,"Contents, learning and forwarding correct, but the benefit is not about the table."
+saf_TC_10.3.49,saf,saf_10.3,1,1.0,"Complete, with less flooding as the benefit."
+saf_TC_10.3.53,saf,saf_10.3,1,0.0,No answer.
+saf_TC_10.3.54,saf,saf_10.3,1,0.5,"Contents and learning correct, but forwarding and benefit missing."
+saf_TC_10.3.56,saf,saf_10.3,1,0.75,"Contents, learning and forwarding correct, but the benefit is not about the table."
+saf_TC_10.3.57,saf,saf_10.3,1,1.0,Complete and accurate.
+saf_TC_10.3.63,saf,saf_10.3,1,0.5,"Learning and purging covered, but forwarding use and benefit missing."
+saf_TC_10.3.84,saf,saf_10.3,1,0.0,No answer.
+saf_TC_10.3.86,saf,saf_10.3,1,0.0,No answer.
+saf_TC_10.3.87,saf,saf_10.3,1,0.0,No answer.
+saf_TC_10.3.90,saf,saf_10.3,1,0.75,"Learning, forwarding and benefit given, but table contents are described inaccurately."
+saf_TC_10.3.93,saf,saf_10.3,1,0.75,"Contents and forwarding correct, but learning and the benefit are not clearly stated."
+saf_PE_12.1.2,saf,saf_12.1,1,1.0,Correct order with sound subset reasoning.
+saf_PE_12.1.4,saf,saf_12.1,1,1.0,Correct order with correct probabilities.
+saf_PE_12.1.8,saf,saf_12.1,1,1.0,Correct order and probabilities with a minor arithmetic slip.
+saf_PE_12.1.10,saf,saf_12.1,1,1.0,Correct order with sound subset reasoning.
+saf_PE_12.1.16,saf,saf_12.1,1,1.0,Correct order with correct calculations.
+saf_PE_12.1.19,saf,saf_12.1,1,0.875,"Correct order, but P(B) is not 1/64 for a biased coin."
+saf_PE_12.1.22,saf,saf_12.1,1,0.875,Correct order with brief but acceptable reasoning.
+saf_PE_12.1.25,saf,saf_12.1,1,1.0,Correct order and probabilities.
+saf_PE_12.1.26,saf,saf_12.1,1,1.0,Correct order with valid reasoning and calculations.
+saf_PE_12.1.27,saf,saf_12.1,1,0.5,"Order roughly implied, but the probability for C is wrong and justification is thin."
+saf_PE_12.1.28,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.32,saf,saf_12.1,1,0.625,"Final order is right, but the reasoning and the value for C contain errors."
+saf_PE_12.1.44,saf,saf_12.1,1,1.0,Correct order and probabilities.
+saf_PE_12.1.60,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.61,saf,saf_12.1,1,0.75,"Correct probabilities, but the final order is not stated."
+saf_PE_12.1.62,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.64,saf,saf_12.1,1,1.0,Correct order with sound subset reasoning.
+saf_PE_12.1.72,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.74,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.75,saf,saf_12.1,1,1.0,Correct order with calculations and intuition.
+saf_PE_12.1.78,saf,saf_12.1,1,1.0,Correct order with subset reasoning.
+saf_PE_12.1.79,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.87,saf,saf_12.1,1,0.0,No answer.
+saf_PE_12.1.89,saf,saf_12.1,1,1.0,Correct order with sound reasoning.
+saf_PE_12.2.6,saf,saf_12.2,1,0.0,Incorrect reasoning and result.
+saf_PE_12.2.12,saf,saf_12.2,1,0.75,"Correct result of about 57 s, but the justification is vague."
+saf_PE_12.2.16,saf,saf_12.2,1,1.0,"Correct: 60 s times (1 - p10), about 57 s."
+saf_PE_12.2.21,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.26,saf,saf_12.2,1,0.25,Wrong sum of states and wrong result.
+saf_PE_12.2.27,saf,saf_12.2,1,1.0,Correct method and result.
+saf_PE_12.2.31,saf,saf_12.2,1,0.5,"Correct blocking probability, but the final interpretation is wrong."
+saf_PE_12.2.33,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.2.44,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.45,saf,saf_12.2,1,0.0,Treats the system deterministically; incorrect.
+saf_PE_12.2.49,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.55,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.58,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.62,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.2.64,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.65,saf,saf_12.2,1,1.0,Correct steps and result.
+saf_PE_12.2.72,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.2.79,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.2.80,saf,saf_12.2,1,0.0,Incorrect reasoning and conclusion.
+saf_PE_12.2.85,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.3.10,saf,saf_12.3,1,0.0,No answer.
+saf_PE_12.3.17,saf,saf_12.3,1,1.0,"Correct: arrivals are dependent, as in streaming traffic."
+saf_PE_12.3.18,saf,saf_12.3,1,1.0,Correct: bursty traffic makes arrivals dependent.
+saf_PE_12.3.21,saf,saf_12.3,1,1.0,Correct: buffering-driven bursts make arrivals dependent.
+saf_PE_12.3.23,saf,saf_12.3,1,1.0,"Correct: arrivals depend on shared events, so they are not independent."
+saf_PE_12.3.25,saf,saf_12.3,1,0.875,"Correct, though the explanation is brief."
+saf_PE_12.3.34,saf,saf_12.3,1,0.0,No answer.
+saf_PE_12.3.39,saf,saf_12.3,1,1.0,Correct: congestion and flow control create dependence.
+saf_PE_12.3.40,saf,saf_12.3,1,0.0,No answer.
+saf_PE_12.3.41,saf,saf_12.3,1,1.0,Correct: streaming and gaming arrivals are dependent.
+saf_PE_12.3.52,saf,saf_12.3,1,1.0,Correct: bursty video traffic makes arrivals dependent.
+saf_PE_12.3.55,saf,saf_12.3,1,1.0,Correct: packets arrive in bursts and follow human patterns.
+saf_PE_12.3.64,saf,saf_12.3,1,1.0,Correct: user behaviour and bursty traffic break independence.
+saf_PE_12.3.66,saf,saf_12.3,1,0.0,No answer.
+saf_PE_12.3.70,saf,saf_12.3,1,1.0,Correct: constant transmission periods make arrivals dependent.
+saf_PE_12.3.79,saf,saf_12.3,1,0.0,No answer.
+saf_PE_12.3.80,saf,saf_12.3,1,0.875,Correct but brief.
+saf_PE_12.3.82,saf,saf_12.3,1,1.0,"Correct: related packets arrive together, so arrivals are dependent."
+saf_PE_12.3.83,saf,saf_12.3,1,0.0,Incorrect; real traffic is bursty and arrivals are not independent.
+saf_PE_12.3.90,saf,saf_12.3,1,0.5,Reaches the right conclusion with a weak reason.
+saf_PE_12.3.96,saf,saf_12.3,1,0.25,Does not clearly say the assumption fails for real traffic.
+saf_DLL_2.1.4,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.5,saf,saf_2.1,1,0.875,Correct names; differences are described only briefly.
+saf_DLL_2.1.14,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.19,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.23,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.26,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.34,saf,saf_2.1,1,0.875,Correct names; differences are brief.
+saf_DLL_2.1.38,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.39,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.41,saf,saf_2.1,1,1.0,Correct and detailed.
+saf_DLL_2.1.53,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.56,saf,saf_2.1,1,0.75,"Names correct, but the two connectionless classes are not distinguished."
+saf_DLL_2.1.58,saf,saf_2.1,1,0.875,Correct names; differences are brief.
+saf_DLL_2.1.63,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.66,saf,saf_2.1,1,1.0,Correct names with clear pairwise differences.
+saf_DLL_2.1.70,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.72,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.80,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.82,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.83,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.84,saf,saf_2.1,1,0.875,Correct names; the acknowledgement difference is not stated.
+saf_DLL_2.1.89,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.2.12,saf,saf_2.2,1,1.0,Correct contrast of start/stop bits versus frames.
+saf_DLL_2.2.18,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.23,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.31,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.35,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.38,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.47,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.50,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.52,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.53,saf,saf_2.2,1,0.5,"Frame versus character idea is right, but the duplex claims are wrong."
+saf_DLL_2.2.55,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.57,saf,saf_2.2,1,0.75,"Asynchronous is correct, but the synchronous description lacks frames."
+saf_DLL_2.2.60,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.64,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.65,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.72,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.74,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.75,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.86,saf,saf_2.2,1,1.0,"Correct, though brief."
+saf_DLL_2.2.88,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.95,saf,saf_2.2,1,0.875,"Correct overall, with one confused sentence."
+saf_DLL_2.2.96,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.3.4,saf,saf_2.3,1,1.0,Correct: data must flow in both directions so ACKs can ride on data frames.
+saf_DLL_2.3.5,saf,saf_2.3,1,0.875,"Mentions duplex operation, with some irrelevant extra requirements."
+saf_DLL_2.3.6,saf,saf_2.3,1,1.0,Correct: duplex operation is required.
+saf_DLL_2.3.7,saf,saf_2.3,1,1.0,Correct: full duplex with data to send both ways.
+saf_DLL_2.3.10,saf,saf_2.3,1,1.0,Correct: duplex communication.
+saf_DLL_2.3.20,saf,saf_2.3,1,1.0,"Correct: duplex, with good timing detail."
+saf_DLL_2.3.24,saf,saf_2.3,1,1.0,Correct: data and ACKs flow in both directions.
+saf_DLL_2.3.32,saf,saf_2.3,1,1.0,Correct: both sides must send data.
+saf_DLL_2.3.46,saf,saf_2.3,1,1.0,Correct: duplex transfer.
+saf_DLL_2.3.49,saf,saf_2.3,1,1.0,Correct: duplex communication.
+saf_DLL_2.3.56,saf,saf_2.3,1,0.5,Timing aspect only; duplex operation is not stated.
+saf_DLL_2.3.57,saf,saf_2.3,1,0.75,"Duplex is mentioned, but other claimed requirements are inaccurate."
+saf_DLL_2.3.59,saf,saf_2.3,1,0.0,Does not state the duplex requirement.
+saf_DLL_2.3.60,saf,saf_2.3,1,0.25,"Describes the ACK field, not the duplex requirement."
+saf_DLL_2.3.65,saf,saf_2.3,1,1.0,Correct: duplex operation.
+saf_DLL_2.3.67,saf,saf_2.3,1,1.0,Correct: duplex with timed waiting for outgoing data.
+saf_DLL_2.3.68,saf,saf_2.3,1,0.875,Duplex is correct; the frame format point is unnecessary.
+saf_DLL_2.3.86,saf,saf_2.3,1,0.0,Unrelated answer.
+saf_DLL_2.3.89,saf,saf_2.3,1,1.0,Correct: full-duplex operation.
+saf_DLL_2.3.93,saf,saf_2.3,1,0.25,"Discusses window sizes, not the duplex requirement."
+saf_DLL_2.3.96,saf,saf_2.3,1,0.25,Describes ACKs but not the duplex requirement.
+saf_LM_4.1.1,saf,saf_4.1,1,1.0,Correct: the diameter decreases by about a factor of 10.
+saf_LM_4.1.6,saf,saf_4.1,1,1.0,"Correct, with an example."
+saf_LM_4.1.7,saf,saf_4.1,1,1.0,Correct with sound reasoning.
+saf_LM_4.1.8,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.18,saf,saf_4.1,1,1.0,"Correct, with an example."
+saf_LM_4.1.22,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.35,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.39,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.42,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.58,saf,saf_4.1,1,0.875,"Correct direction, but says almost the same factor."
+saf_LM_4.1.61,saf,saf_4.1,1,1.0,"Correct, with an example."
+saf_LM_4.1.62,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.63,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.67,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.69,saf,saf_4.1,1,1.0,Correct with reasoning.
+saf_LM_4.1.71,saf,saf_4.1,1,1.0,"Correct, with an example."
+saf_LM_4.1.72,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.75,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.79,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.81,saf,saf_4.1,1,0.75,"Says it shrinks, but not by the factor of 10."
+saf_LM_4.1.92,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.2.2,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantage."
+saf_LM_4.2.4,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantage."
+saf_LM_4.2.9,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantages."
+saf_LM_4.2.11,saf,saf_2.1,1,0.0,No answer.
+saf_LM_4.2.14,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantage."
+saf_LM_4.2.19,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.25,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.38,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.40,saf,saf_2.1,1,0.0,No answer.
+saf_LM_4.2.44,saf,saf_2.1,1,1.0,Correct and well explained.
+saf_LM_4.2.45,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.54,saf,saf_2.1,1,0.5,"Advantage and disadvantage are right, but the definition is wrong."
+saf_LM_4.2.59,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.64,saf,saf_2.1,1,1.0,Correct and detailed.
+saf_LM_4.2.65,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.68,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.87,saf,saf_2.1,1,0.5,Vague definition; the disadvantage given is weak.
+saf_LM_4.2.90,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.91,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.2.95,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.8,saf,saf_2.1,1,1.0,Correct: unfair reservation depending on station position.
+saf_LM_4.3.14,saf,saf_2.1,1,1.0,Correct: position-dependent fairness.
+saf_LM_4.3.16,saf,saf_2.1,1,0.875,Captures the position-dependent access problem without naming fairness clearly.
+saf_LM_4.3.28,saf,saf_2.1,1,1.0,Correct: fairness depends on position.
+saf_LM_4.3.33,saf,saf_2.1,1,1.0,Correct: position-dependent fairness.
+saf_LM_4.3.35,saf,saf_2.1,1,1.0,Correct: fairness problem tied to node location.
+saf_LM_4.3.37,saf,saf_2.1,1,0.875,Fairness is right; the claim about overwriting requests is inaccurate.
+saf_LM_4.3.41,saf,saf_2.1,1,1.0,Correct: position-dependent fairness.
+saf_LM_4.3.50,saf,saf_2.1,1,1.0,Correct and well explained.
+saf_LM_4.3.51,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.52,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.53,saf,saf_2.1,1,0.0,No answer.
+saf_LM_4.3.60,saf,saf_2.1,1,1.0,Correct: fairness depending on location.
+saf_LM_4.3.61,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.64,saf,saf_2.1,1,1.0,Correct and well explained.
+saf_LM_4.3.70,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.79,saf,saf_2.1,1,0.75,Mentions fairness but the explanation is muddled.
+saf_LM_4.3.84,saf,saf_2.1,1,0.5,Says fairness but wrongly states access does not depend on location.
+saf_LM_4.3.86,saf,saf_2.1,1,0.875,Names fairness but not the role of location.
+saf_LM_4.3.88,saf,saf_2.1,1,1.0,Correct: unequal access depending on position.
+saf_LM_4.3.93,saf,saf_2.1,1,1.0,Correct: upstream nodes are favoured.
+saf_IPP_6.1.1,saf,saf_6.1,1,1.0,Gives five valid IPv6 objectives.
+saf_IPP_6.1.2,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.5,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.12,saf,saf_6.1,1,1.0,Gives at least four valid objectives.
+saf_IPP_6.1.17,saf,saf_6.1,1,1.0,Gives four valid objectives with explanations.
+saf_IPP_6.1.18,saf,saf_6.1,1,1.0,Gives four valid objectives and more.
+saf_IPP_6.1.19,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.22,saf,saf_6.1,1,1.0,Gives many valid objectives.
+saf_IPP_6.1.25,saf,saf_6.1,1,1.0,Gives five valid objectives.
+saf_IPP_6.1.35,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.37,saf,saf_6.1,1,1.0,Gives several valid objectives.
+saf_IPP_6.1.41,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.42,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.48,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.49,saf,saf_6.1,1,1.0,Gives several valid objectives with explanations.
+saf_IPP_6.1.58,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.82,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.91,saf,saf_6.1,1,1.0,Gives many valid objectives.
+saf_IPP_6.1.93,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.1.96,saf,saf_6.1,1,1.0,Gives many valid objectives with explanations.
+saf_IPP_6.2.8,saf,saf_6.2,1,1.0,Correct location and a valid advantage.
+saf_IPP_6.2.9,saf,saf_6.2,1,0.75,"Location roughly right, but the advantage given is weak."
+saf_IPP_6.2.11,saf,saf_6.2,1,1.0,"Correct definition, location and advantage."
+saf_IPP_6.2.18,saf,saf_6.2,1,1.0,"Correct definition, location and advantage."
+saf_IPP_6.2.20,saf,saf_6.2,1,1.0,Correct and detailed.
+saf_IPP_6.2.24,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.25,saf,saf_6.2,1,0.875,Correct location; the advantage is stated very briefly.
+saf_IPP_6.2.26,saf,saf_6.2,1,1.0,"Correct definition, location and flexibility advantage."
+saf_IPP_6.2.32,saf,saf_6.2,1,1.0,"Correct definition, location and advantage."
+saf_IPP_6.2.38,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.43,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.53,saf,saf_6.2,1,0.0,No answer.
+saf_IPP_6.2.55,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.59,saf,saf_6.2,1,0.875,"Correct overall, but the size limitation is not about addresses."
+saf_IPP_6.2.69,saf,saf_6.2,1,1.0,"Correct definition, location and advantage."
+saf_IPP_6.2.79,saf,saf_6.2,1,0.625,Location vague and size claim wrong; advantage partly right.
+saf_IPP_6.2.87,saf,saf_6.2,1,0.0,No answer.
+saf_IPP_6.2.88,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.91,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.2.92,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.3.11,saf,saf_6.3,1,0.875,Correct but brief.
+saf_IPP_6.3.18,saf,saf_6.3,1,1.0,"Correct: replaces RARP, assigns addresses and provides configuration."
+saf_IPP_6.3.20,saf,saf_6.3,1,1.0,Correct and detailed.
+saf_IPP_6.3.30,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.38,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.39,saf,saf_6.3,1,1.0,Correct and complete.
+saf_IPP_6.3.44,saf,saf_6.3,1,1.0,"Correct, with the message flow."
+saf_IPP_6.3.49,saf,saf_6.3,1,1.0,Correct and detailed.
+saf_IPP_6.3.61,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.62,saf,saf_6.3,1,0.5,Describes address resolution rather than address assignment.
+saf_IPP_6.3.63,saf,saf_6.3,1,0.75,"Uses are right, but what DHCP is is not explained."
+saf_IPP_6.3.68,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.71,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.72,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.86,saf,saf_6.3,1,1.0,Correct.
+saf_IPP_6.3.93,saf,saf_6.3,1,1.0,Correct and complete.
+saf_MM_8.1.6,saf,saf_8.1,1,1.0,Names and explains hidden and exposed terminals.
+saf_MM_8.1.7,saf,saf_8.1,1,1.0,Names and explains hidden and exposed terminals.
+saf_MM_8.1.10,saf,saf_8.1,1,1.0,Names and explains two challenges clearly.
+saf_MM_8.1.14,saf,saf_8.1,1,0.5,Names two challenges but describes them weakly.
+saf_MM_8.1.15,saf,saf_8.1,1,1.0,Names and explains hidden terminals and range effects.
+saf_MM_8.1.18,saf,saf_8.1,1,1.0,Names and explains several challenges.
+saf_MM_8.1.20,saf,saf_8.1,1,1.0,Names and explains topology changes and addressing.
+saf_MM_8.1.28,saf,saf_8.1,1,0.0,No answer.
+saf_MM_8.1.31,saf,saf_8.1,1,1.0,Names and explains two challenges.
+saf_MM_8.1.49,saf,saf_8.1,1,1.0,Names and explains several challenges.
+saf_MM_8.1.51,saf,saf_8.1,1,1.0,Names and explains hidden terminals and near-far terminals.
+saf_MM_8.1.69,saf,saf_8.1,1,1.0,Names and explains two challenges.
+saf_MM_8.1.79,saf,saf_8.1,1,0.75,Names two challenges with brief descriptions.
+saf_MM_8.1.82,saf,saf_8.1,1,1.0,Names and explains two challenges clearly.
+saf_MM_8.1.92,saf,saf_8.1,1,1.0,Names and explains topology change and signalling overhead.
+saf_MM_8.1.95,saf,saf_8.1,1,1.0,Names and explains heterogeneity and security.
+saf_MM_8.2.4,saf,saf_8.2,1,1.0,Correct purpose and correct working of both RPF and RPB.
+saf_MM_8.2.11,saf,saf_8.2,1,0.0,No answer.
+saf_MM_8.2.12,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.19,saf,saf_8.2,1,1.0,Correct and detailed explanation of both.
+saf_MM_8.2.29,saf,saf_8.2,1,0.875,"Correct working of both, but the purpose is stated weakly."
+saf_MM_8.2.32,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.35,saf,saf_8.2,1,0.75,"RPF is correct, but the purpose given for RPB is wrong."
+saf_MM_8.2.43,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.45,saf,saf_8.2,1,0.75,"RPF is correct, but RPB is explained only vaguely."
+saf_MM_8.2.60,saf,saf_8.2,1,0.0,No answer.
+saf_MM_8.2.68,saf,saf_8.2,1,0.875,Working of both is correct; the purpose is stated weakly.
+saf_MM_8.2.70,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.72,saf,saf_8.2,1,0.0,No answer.
+saf_MM_8.2.75,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.83,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.84,saf,saf_8.2,1,0.75,"Working described, but the purpose is weak and the RPB steps are muddled."
+saf_MM_8.2.91,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.3.3,saf,saf_8.3,1,0.5,"Property is correct, but the Link State Routing modification is not explained."
+saf_MM_8.3.5,saf,saf_8.3,1,0.25,Property only partly right; describes plain link state routing without multicast information.
+saf_MM_8.3.6,saf,saf_8.3,1,0.5,"Property is correct, but the modification described is not the standard one."
+saf_MM_8.3.8,saf,saf_8.3,1,0.625,Property is correct; the modification lacks multicast group information.
+saf_MM_8.3.11,saf,saf_8.3,1,0.0,No answer.
+saf_MM_8.3.13,saf,saf_8.3,1,0.5,"Modification is correct, but the property is not stated."
+saf_MM_8.3.19,saf,saf_8.3,1,0.5,"Modification is correct, but the property given is wrong."
+saf_MM_8.3.22,saf,saf_8.3,1,0.75,Modification mostly right; the loop-free property is only implied.
+saf_MM_8.3.24,saf,saf_8.3,1,0.5,"Property is correct, but the modification is missing."
+saf_MM_8.3.30,saf,saf_8.3,1,0.75,Property is correct; the modification omits multicast group information.
+saf_MM_8.3.32,saf,saf_8.3,1,0.75,Property is correct; the modification omits multicast group information.
+saf_MM_8.3.48,saf,saf_8.3,1,0.75,Property is correct; the modification omits multicast group information.
+saf_MM_8.3.49,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.50,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.52,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.58,saf,saf_8.3,1,0.0,Property is wrong and no modification is given.
+saf_MM_8.3.59,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.60,saf,saf_8.3,1,0.0,No answer.
+saf_MM_8.3.68,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.70,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.89,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.90,saf,saf_8.3,1,1.0,Correct property and a valid pruning approach.
+saf_MM_8.3.91,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_TC_10.1.10,saf,saf_10.1,1,1.0,States several valid header differences.
+saf_TC_10.1.46,saf,saf_10.1,1,0.0,No answer.
+saf_TC_10.1.48,saf,saf_10.1,1,1.0,Correct header field differences.
+saf_TC_10.2.4,saf,saf_10.2,1,0.875,"Mostly correct, but resetting cwnd to 1 after a timeout is not stated."
+saf_TC_10.2.91,saf,saf_10.2,1,1.0,Correct and complete.
+saf_TC_10.3.59,saf,saf_10.3,1,0.625,"Learning is correct, but the forwarding use is wrong."
+saf_TC_10.3.61,saf,saf_10.3,1,0.875,"Contents, learning and forwarding are correct; the benefit is weak."
+saf_TC_10.3.80,saf,saf_10.3,1,0.75,"Contents, learning and forwarding are right, but the benefit is wrong."
+saf_PE_12.1.12,saf,saf_12.1,1,1.0,Correct order and probabilities.
+saf_PE_12.1.21,saf,saf_12.1,1,1.0,Correct order and probabilities.
+saf_PE_12.1.45,saf,saf_12.1,1,1.0,Correct order and probabilities.
+saf_PE_12.2.8,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.2.48,saf,saf_12.2,1,0.875,Correct method; the final figure is slightly off.
+saf_PE_12.2.59,saf,saf_12.2,1,0.0,Incorrect reasoning.
+saf_PE_12.2.87,saf,saf_12.2,1,0.0,No answer.
+saf_PE_12.3.38,saf,saf_12.3,1,1.0,"Correct: bursty, time-varying traffic is not independent."
+saf_PE_12.3.48,saf,saf_12.3,1,1.0,Correct: retransmissions create dependence.
+saf_PE_12.3.60,saf,saf_12.3,1,0.0,No answer.
+saf_DLL_2.1.52,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.1.62,saf,saf_2.1,1,1.0,Correct names and differences.
+saf_DLL_2.2.8,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.28,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.37,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.51,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.2.62,saf,saf_2.2,1,1.0,Correct.
+saf_DLL_2.3.28,saf,saf_2.3,1,0.0,No answer.
+saf_DLL_2.3.63,saf,saf_2.3,1,1.0,Correct: both sides must send frames.
+saf_DLL_2.3.75,saf,saf_2.3,1,1.0,Correct: duplex with data in both directions.
+saf_DLL_2.3.77,saf,saf_2.3,1,0.25,Does not state the duplex requirement.
+saf_LM_4.1.27,saf,saf_4.1,1,1.0,"Correct, with a factor-of-10 example."
+saf_LM_4.1.48,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.1.85,saf,saf_4.1,1,1.0,Correct.
+saf_LM_4.2.1,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantage."
+saf_LM_4.2.21,saf,saf_2.1,1,1.0,Correct and detailed.
+saf_LM_4.2.53,saf,saf_2.1,1,0.5,"Advantage and disadvantage given, but no definition."
+saf_LM_4.2.92,saf,saf_2.1,1,1.0,"Correct definition, advantage and disadvantage."
+saf_LM_4.3.23,saf,saf_2.1,1,1.0,Correct: location-dependent fairness.
+saf_LM_4.3.26,saf,saf_2.1,1,1.0,Correct and well explained.
+saf_LM_4.3.31,saf,saf_2.1,1,0.875,Names fairness but not the role of location.
+saf_LM_4.3.54,saf,saf_2.1,1,0.625,"Names fairness, but the explanation given is partly wrong."
+saf_LM_4.3.57,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.66,saf,saf_2.1,1,1.0,Correct.
+saf_LM_4.3.90,saf,saf_2.1,1,1.0,Correct.
+saf_IPP_6.1.54,saf,saf_6.1,1,1.0,Gives four valid objectives.
+saf_IPP_6.2.3,saf,saf_6.2,1,1.0,Correct location and advantage.
+saf_IPP_6.2.15,saf,saf_6.2,1,1.0,"Correct definition, location and advantage."
+saf_IPP_6.2.37,saf,saf_6.2,1,0.625,"Advantage is right, but the definition and location are inaccurate."
+saf_IPP_6.2.83,saf,saf_6.2,1,1.0,"Correct definition, location and advantages."
+saf_IPP_6.3.45,saf,saf_6.3,1,0.875,Uses are right; the first sentence describes RARP rather than DHCP.
+saf_IPP_6.3.52,saf,saf_6.3,1,1.0,"Correct, apart from one stray sentence."
+saf_MM_8.1.19,saf,saf_8.1,1,1.0,Names and explains two challenges.
+saf_MM_8.2.2,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.2.67,saf,saf_8.2,1,1.0,Correct purpose and working of both.
+saf_MM_8.3.42,saf,saf_8.3,1,1.0,Correct property and modification.
+saf_MM_8.3.45,saf,saf_8.3,1,0.5,"Property is correct, but the modification is wrong."
+saf_SDN_11.1.3,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.9,saf,saf_11.1,1,1.0,Correct plane responsibilities and controller tasks.
+saf_SDN_11.1.20,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.26,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.36,saf,saf_11.1,1,1.0,Correct plane responsibilities and controller tasks.
+saf_SDN_11.1.37,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.38,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.40,saf,saf_11.1,1,0.0,No answer.
+saf_SDN_11.1.44,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.49,saf,saf_11.1,1,1.0,Correct and detailed.
+saf_SDN_11.1.54,saf,saf_11.1,1,1.0,Correct plane responsibilities and controller tasks.
+saf_SDN_11.1.76,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.83,saf,saf_11.1,1,1.0,Correct plane responsibilities and two controller tasks.
+saf_SDN_11.1.84,saf,saf_11.1,1,0.0,No answer.
+saf_SDN_11.1.85,saf,saf_11.1,1,0.0,No answer.
+saf_SDN_11.2.2,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.3,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.4,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.10,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.12,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.16,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.21,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.25,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.28,saf,saf_11.2,1,0.0,No answer.
+saf_SDN_11.2.31,saf,saf_11.2,1,0.75,Benefits are valid; the drawbacks are weakly argued.
+saf_SDN_11.2.33,saf,saf_11.2,1,0.75,Benefits are valid; one drawback is doubtful.
+saf_SDN_11.2.38,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.39,saf,saf_11.2,1,1.0,Two valid benefits and two valid drawbacks.
+saf_SDN_11.2.42,saf,saf_11.2,1,0.75,Benefits are valid; the drawbacks are only partly convincing.
+saf_SDN_11.2.46,saf,saf_11.2,1,0.0,No answer.
+saf_SDN_11.2.63,saf,saf_11.2,1,0.875,Benefits valid; the cost drawback is unsupported.
+saf_SDN_11.2.72,saf,saf_11.2,1,0.0,No answer.
+saf_SDN_11.2.86,saf,saf_11.2,1,0.0,No answer.
+saf_SDN_11.2.87,saf,saf_11.2,1,0.0,No answer.
+saf_SDN_11.3.2,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.8,saf,saf_11.3,1,0.0,"Names routing approaches, not the distribution modes."
+saf_SDN_11.3.14,saf,saf_11.3,1,0.0,No answer.
+saf_SDN_11.3.20,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.27,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.30,saf,saf_11.3,1,0.5,"Correct modes, but only one downside is given."
+saf_SDN_11.3.35,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.38,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.39,saf,saf_11.3,1,0.0,Wrong modes.
+saf_SDN_11.3.44,saf,saf_11.3,1,0.0,Wrong modes.
+saf_SDN_11.3.50,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.60,saf,saf_11.3,1,0.0,No answer.
+saf_SDN_11.3.61,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.64,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.69,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.73,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.75,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.77,saf,saf_11.3,1,1.0,Correct modes and downsides.
+saf_SDN_11.3.78,saf,saf_11.3,1,0.5,"Correct modes, but the downsides are wrong."
+saf_SDN_11.3.84,saf,saf_11.3,1,0.0,No answer.
+saf_SDN_11.3.87,saf,saf_11.3,1,0.0,No answer.
+saf_SDN_11.3.92,saf,saf_11.3,1,1.0,"Correct modes and downsides, though brief."
+saf_SDN_11.3.93,saf,saf_11.3,1,1.0,Correct downsides for both modes.
+saf_SDN_11.4.5,saf,saf_11.4,1,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.8,saf,saf_11.4,1,0.75,Flow table is right; the meter table's rate control is missing.
+saf_SDN_11.4.10,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.16,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.17,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.19,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.25,saf,saf_11.4,1,0.75,Flow table is right; the meter table is described only as statistics.
+saf_SDN_11.4.27,saf,saf_11.4,1,0.25,Largely incorrect.
+saf_SDN_11.4.30,saf,saf_11.4,1,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.31,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.36,saf,saf_11.4,1,0.75,Flow table is right; the meter table is described only as statistics.
+saf_SDN_11.4.37,saf,saf_11.4,1,0.75,Flow table is right; the meter table's rate control is missing.
+saf_SDN_11.4.42,saf,saf_11.4,1,0.75,Flow table is right; the meter table is described only as statistics.
+saf_SDN_11.4.45,saf,saf_11.4,1,0.75,Flow table is right; the meter table is described only as statistics.
+saf_SDN_11.4.56,saf,saf_11.4,1,0.0,No answer.
+saf_SDN_11.4.59,saf,saf_11.4,1,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.65,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.66,saf,saf_11.4,1,0.0,No answer.
+saf_SDN_11.4.67,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.76,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.77,saf,saf_11.4,1,1.0,Correct functions of both tables.
+saf_SDN_11.4.84,saf,saf_11.4,1,0.0,No answer.
+saf_SDN_11.4.85,saf,saf_11.4,1,0.0,No answer.
+mohler_27,mohler,mohler_1.1,2,3.0,"Partly matches: testing that part works, but not simulating the product's behaviour."
+mohler_28,mohler,mohler_1.1,2,1.0,"Describes structured development, not simulating behaviour."
+mohler_32,mohler,mohler_1.2,2,1.0,RUP phases do not match the coding and refinement stages.
+mohler_38,mohler,mohler_1.2,2,5.0,Matches the model answer: refining and coding.
+mohler_40,mohler,mohler_1.2,2,3.0,"Refining is right, but coding is missing and extra stages are added."
+mohler_45,mohler,mohler_1.2,2,2.5,"Refining is right, but coding is missing and other stages are added."
+mohler_46,mohler,mohler_1.2,2,1.0,Does not name the stages.
+mohler_47,mohler,mohler_1.2,2,1.0,Does not match coding and refinement.
+mohler_53,mohler,mohler_1.2,2,2.0,Lists every stage without identifying coding and refinement.
+mohler_66,mohler,mohler_1.3,2,0.0,No valid answer was given.
+mohler_73,mohler,mohler_1.3,2,5.0,Covers abstraction and reusability.
+mohler_86,mohler,mohler_1.3,2,3.0,"Encapsulation and inheritance relate to reuse, but abstraction is not covered."
+mohler_88,mohler,mohler_1.4,2,5.0,Correct: main function.
+mohler_89,mohler,mohler_1.4,2,5.0,Correct.
+mohler_90,mohler,mohler_1.4,2,5.0,Correct.
+mohler_91,mohler,mohler_1.4,2,5.0,Correct.
+mohler_99,mohler,mohler_1.4,2,0.0,Incorrect.
+mohler_105,mohler,mohler_1.4,2,5.0,Correct.
+mohler_106,mohler,mohler_1.4,2,5.0,Correct.
+mohler_110,mohler,mohler_1.4,2,5.0,Correct.
+mohler_111,mohler,mohler_1.4,2,5.0,Correct.
+mohler_113,mohler,mohler_1.4,2,5.0,Correct.
+mohler_120,mohler,mohler_1.5,2,5.0,Matches the model answer.
+mohler_124,mohler,mohler_1.5,2,0.0,No valid answer was given.
+mohler_125,mohler,mohler_1.5,2,5.0,Matches the model answer.
+mohler_130,mohler,mohler_1.5,2,4.0,Mostly matches; address wording is imprecise.
+mohler_132,mohler,mohler_1.5,2,3.0,Omits the memory location.
+mohler_134,mohler,mohler_1.5,2,3.0,Omits the memory location.
+mohler_139,mohler,mohler_1.5,2,5.0,Matches the model answer.
+mohler_145,mohler,mohler_1.6,2,3.5,"Before use is right, but local and global declaration is not covered."
+mohler_148,mohler,mohler_1.6,2,5.0,Matches the model answer: local or global.
+mohler_151,mohler,mohler_1.6,2,4.0,"Covers global and local, though wordy."
+mohler_158,mohler,mohler_1.6,2,5.0,Matches the model answer.
+mohler_159,mohler,mohler_1.6,2,2.5,Only the beginning of a module; misses anywhere and local/global.
+mohler_166,mohler,mohler_1.6,2,4.0,"Correct that it can be anywhere, but local/global is not covered."
+mohler_170,mohler,mohler_1.6,2,4.0,"Correct that it can be anywhere, but local/global is not covered."
+mohler_174,mohler,mohler_1.7,2,4.0,"Captures that do...while runs first, despite mislabelling."
+mohler_188,mohler,mohler_1.7,2,5.0,Matches the model answer.
+mohler_190,mohler,mohler_1.7,2,5.0,Matches the model answer.
+mohler_198,mohler,mohler_1.7,2,5.0,Matches the model answer.
+mohler_205,mohler,mohler_2.1,2,5.0,Matches the model answer.
+mohler_209,mohler,mohler_2.1,2,5.0,Matches the model answer.
+mohler_211,mohler,mohler_2.1,2,5.0,Matches the model answer.
+mohler_216,mohler,mohler_2.1,2,2.5,Only functions; data members missing.
+mohler_223,mohler,mohler_2.1,2,5.0,Matches the model answer.
+mohler_227,mohler,mohler_2.1,2,1.5,Syntax elements instead of data members and member functions.
+mohler_230,mohler,mohler_2.1,2,5.0,Matches the model answer.
+mohler_239,mohler,mohler_2.2,2,2.5,Covers local variables only.
+mohler_251,mohler,mohler_2.2,2,5.0,Matches the model answer.
+mohler_268,mohler,mohler_2.3,2,3.0,"Constructor role right, but neither key difference is stated."
+mohler_271,mohler,mohler_2.3,2,4.0,Gives one of the two key differences.
+mohler_273,mohler,mohler_2.3,2,2.0,Defines a constructor but gives no difference.
+mohler_287,mohler,mohler_2.3,2,4.0,Gives one of the two key differences.
+mohler_298,mohler,mohler_2.4,2,1.0,Incorrect condition.
+mohler_299,mohler,mohler_2.4,2,5.0,Matches the model answer.
+mohler_300,mohler,mohler_2.4,2,1.0,Incorrect.
+mohler_308,mohler,mohler_2.4,2,4.5,Matches the model answer.
+mohler_309,mohler,mohler_2.4,2,5.0,Matches the model answer.
+mohler_313,mohler,mohler_2.4,2,5.0,Matches the model answer.
+mohler_318,mohler,mohler_2.4,2,5.0,Matches the model answer.
+mohler_324,mohler,mohler_2.5,2,5.0,Matches the model answer.
+mohler_328,mohler,mohler_2.5,2,0.0,Incorrect; unlimited.
+mohler_330,mohler,mohler_2.5,2,0.0,Incorrect; unlimited.
+mohler_332,mohler,mohler_2.5,2,5.0,Matches the model answer.
+mohler_336,mohler,mohler_2.5,2,4.5,Matches in substance.
+mohler_339,mohler,mohler_2.5,2,5.0,Matches the model answer.
+mohler_348,mohler,mohler_2.5,2,4.5,Matches in substance.
+mohler_350,mohler,mohler_2.5,2,0.0,Incorrect; unlimited.
+mohler_357,mohler,mohler_2.6,2,3.0,"Prototype described, but the definition body is not mentioned."
+mohler_360,mohler,mohler_2.6,2,4.5,Correct contrast; return type is omitted.
+mohler_364,mohler,mohler_2.6,2,4.0,Correct body contrast; prototype content not stated.
+mohler_371,mohler,mohler_2.6,2,3.5,Partly matches; wording is imprecise.
+mohler_373,mohler,mohler_2.6,2,4.0,Correct contrast; name and return type omitted.
+mohler_375,mohler,mohler_2.6,2,4.5,Correct contrast.
+mohler_376,mohler,mohler_2.6,2,4.0,Correct contrast; name and return type omitted.
+mohler_385,mohler,mohler_2.7,2,4.0,Close; does not mention member function prototypes.
+mohler_395,mohler,mohler_2.7,2,3.5,Partly matches.
+mohler_405,mohler,mohler_2.7,2,5.0,Matches the model answer.
+mohler_406,mohler,mohler_2.7,2,2.5,Too general.
+mohler_407,mohler,mohler_2.7,2,3.5,Partly matches.
+mohler_409,mohler,mohler_2.7,2,1.5,Does not describe the role.
+mohler_410,mohler,mohler_2.7,2,3.5,Partly matches.
+mohler_413,mohler,mohler_3.1,2,3.5,Name and parameter types right; description is not part of a signature.
+mohler_414,mohler,mohler_3.1,2,2.0,"Includes output types, which are not part of the signature."
+mohler_418,mohler,mohler_3.1,2,3.0,Name and parameters right; scope is not part of it.
+mohler_419,mohler,mohler_3.1,2,5.0,Matches the model answer.
+mohler_420,mohler,mohler_3.1,2,1.5,Return type is not included; name missing.
+mohler_422,mohler,mohler_3.1,2,5.0,Matches the model answer.
+mohler_423,mohler,mohler_3.1,2,5.0,Matches the model answer.
+mohler_428,mohler,mohler_3.1,2,5.0,Matches the model answer.
+mohler_432,mohler,mohler_3.1,2,5.0,Matches the model answer.
+mohler_440,mohler,mohler_3.1,2,4.5,Matches; parameter types not specified.
+mohler_449,mohler,mohler_3.2,2,3.0,Partly correct; file scope not stated.
+mohler_451,mohler,mohler_3.2,2,1.0,Incorrect.
+mohler_452,mohler,mohler_3.2,2,5.0,Matches the model answer.
+mohler_456,mohler,mohler_3.2,2,3.5,"Close, but file scope is more precise."
+mohler_463,mohler,mohler_3.2,2,3.5,"Close, but file scope is more precise."
+mohler_464,mohler,mohler_3.2,2,5.0,Matches the model answer.
+mohler_467,mohler,mohler_3.2,2,3.5,"Close, but file scope is not stated."
+mohler_468,mohler,mohler_3.2,2,4.5,Mentions the file.
+mohler_470,mohler,mohler_3.2,2,3.0,Imprecise.
+mohler_478,mohler,mohler_3.3,2,2.0,True but does not describe the code copying.
+mohler_480,mohler,mohler_3.3,2,0.5,Does not describe how the compiler handles inline functions.
+mohler_483,mohler,mohler_3.3,2,5.0,Matches the model answer.
+mohler_490,mohler,mohler_3.3,2,5.0,Matches the model answer.
+mohler_502,mohler,mohler_3.3,2,4.5,Matches in substance.
+mohler_509,mohler,mohler_3.4,2,5.0,Matches the model answer.
+mohler_513,mohler,mohler_3.4,2,5.0,Matches the model answer.
+mohler_516,mohler,mohler_3.4,2,3.0,"A valid point, but not the avoided copying."
+mohler_520,mohler,mohler_3.4,2,5.0,Matches the model answer.
+mohler_521,mohler,mohler_3.4,2,5.0,Matches the model answer.
+mohler_523,mohler,mohler_3.4,2,4.0,Less overhead matches in substance.
+mohler_534,mohler,mohler_3.4,2,3.0,"A valid point, but not the avoided copying."
+mohler_541,mohler,mohler_3.5,2,5.0,Matches the model answer.
+mohler_542,mohler,mohler_3.5,2,3.0,Partial; signature not described.
+mohler_551,mohler,mohler_3.5,2,4.5,Matches in substance.
+mohler_554,mohler,mohler_3.5,2,5.0,Matches the model answer.
+mohler_557,mohler,mohler_3.5,2,4.5,Matches in substance.
+mohler_563,mohler,mohler_3.5,2,4.0,Minimal but correct.
+mohler_567,mohler,mohler_3.5,2,1.0,Confuses overloading with overriding.
+mohler_574,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_577,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_579,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_581,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_585,mohler,mohler_3.6,2,2.0,Vague.
+mohler_586,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_588,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_590,mohler,mohler_3.6,2,5.0,Matches the model answer.
+mohler_591,mohler,mohler_3.6,2,4.5,Matches in substance.
+mohler_595,mohler,mohler_3.6,2,3.5,Covers the base case only.
+mohler_601,mohler,mohler_3.7,2,4.0,Repetition and infinite execution; termination test missing.
+mohler_604,mohler,mohler_3.7,2,5.0,Covers all three similarities.
+mohler_606,mohler,mohler_3.7,2,1.5,Not one of the listed similarities.
+mohler_607,mohler,mohler_3.7,2,4.0,Repetition and termination test; infinite execution missing.
+mohler_608,mohler,mohler_3.7,2,3.5,Repetition and infinite execution; termination test missing.
+mohler_610,mohler,mohler_3.7,2,5.0,Covers all three similarities.
+mohler_613,mohler,mohler_3.7,2,4.0,Termination and infinite execution; repetition implied.
+mohler_616,mohler,mohler_3.7,2,2.5,Repetition only.
+mohler_618,mohler,mohler_3.7,2,4.0,Repetition and termination test; infinite execution missing.
+mohler_621,mohler,mohler_3.7,2,5.0,Covers all three similarities.
+mohler_628,mohler,mohler_3.7,2,2.5,Termination only.
+mohler_629,mohler,mohler_3.7,2,2.5,"Repetition only, mostly differences."
+mohler_631,mohler,mohler_4.1,2,3.0,Partly matches; growing arrays is wrong.
+mohler_632,mohler,mohler_4.1,2,4.5,Matches both ways.
+mohler_635,mohler,mohler_4.1,2,5.0,Matches the model answer.
+mohler_650,mohler,mohler_4.1,2,5.0,Matches the model answer.
+mohler_655,mohler,mohler_4.1,2,4.5,Matches both ways.
+mohler_666,mohler,mohler_4.2,2,1.0,Attributes the null terminator to the wrong type.
+mohler_669,mohler,mohler_4.2,2,5.0,Matches the model answer.
+mohler_673,mohler,mohler_4.2,2,1.0,Incorrect.
+mohler_679,mohler,mohler_4.2,2,4.0,Correct about the terminator in char arrays.
+mohler_687,mohler,mohler_4.2,2,0.5,Incorrect.
+mohler_689,mohler,mohler_4.2,2,1.0,Does not state the null terminator difference.
+mohler_691,mohler,mohler_4.3,2,3.0,Partly correct.
+mohler_693,mohler,mohler_4.3,2,0.0,No valid answer was given.
+mohler_699,mohler,mohler_4.3,2,2.0,Does not state passing by reference.
+mohler_701,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_704,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_707,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_708,mohler,mohler_4.3,2,2.5,Does not state passing by reference.
+mohler_709,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_710,mohler,mohler_4.3,2,3.0,Does not state passing by reference.
+mohler_711,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_712,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_714,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_715,mohler,mohler_4.3,2,5.0,Matches the model answer.
+mohler_719,mohler,mohler_4.3,2,0.0,Incorrect.
+mohler_723,mohler,mohler_4.4,2,4.0,Initialised once is right; the claim about non-static arrays is wrong.
+mohler_734,mohler,mohler_4.4,2,0.0,Unrelated to static arrays.
+mohler_739,mohler,mohler_4.4,2,5.0,Matches the model answer.
+mohler_742,mohler,mohler_4.4,2,2.5,Vague.
+mohler_743,mohler,mohler_4.4,2,5.0,Matches the model answer.
+mohler_764,mohler,mohler_4.5,2,0.0,Incorrect; all dimensions except the first are needed.
+mohler_765,mohler,mohler_4.5,2,5.0,Matches the model answer.
+mohler_767,mohler,mohler_4.5,2,1.0,Incorrect; the first dimension can be omitted.
+mohler_775,mohler,mohler_4.5,2,0.5,Incorrect.
+mohler_779,mohler,mohler_4.5,2,1.0,Does not answer the question.
+mohler_793,mohler,mohler_5.1,2,3.5,Idea of inserting into the sorted left part is right; random choice is wrong.
+mohler_794,mohler,mohler_5.1,2,4.5,Matches in substance.
+mohler_796,mohler,mohler_5.1,2,3.5,Partly matches; pivot wording is wrong.
+mohler_799,mohler,mohler_5.1,2,4.5,Matches in substance.
+mohler_800,mohler,mohler_5.1,2,5.0,Matches the model answer.
+mohler_803,mohler,mohler_5.1,2,4.0,"Matches, though not in one sentence."
+mohler_804,mohler,mohler_5.1,2,2.5,Inaccurate comparison with the first element only.
+mohler_812,mohler,mohler_5.2,2,5.0,Matches the model answer.
+mohler_813,mohler,mohler_5.2,2,5.0,Matches the model answer.
+mohler_818,mohler,mohler_5.2,2,5.0,Matches the model answer.
+mohler_837,mohler,mohler_5.3,2,5.0,Matches the model answer.
+mohler_839,mohler,mohler_5.3,2,4.0,Correct bound with a confused explanation.
+mohler_842,mohler,mohler_5.3,2,2.5,Best-case scenario not stated.
+mohler_856,mohler,mohler_5.3,2,5.0,Matches the model answer.
+mohler_865,mohler,mohler_5.4,2,5.0,Matches the model answer.
+mohler_868,mohler,mohler_5.4,2,5.0,Matches the model answer.
+mohler_875,mohler,mohler_5.4,2,5.0,Matches the model answer.
+mohler_877,mohler,mohler_5.4,2,0.0,"Gives the complexity, not the base case."
+mohler_882,mohler,mohler_5.4,2,5.0,Matches the model answer.
+mohler_889,mohler,mohler_5.4,2,2.0,Vague.
+mohler_890,mohler,mohler_5.4,2,5.0,Matches the model answer.
+mohler_892,mohler,mohler_6.1,2,4.0,"Correct idea, but a pointer is a variable."
+mohler_896,mohler,mohler_6.1,2,4.5,Matches in substance.
+mohler_897,mohler,mohler_6.1,2,4.0,Correct but brief.
+mohler_903,mohler,mohler_6.1,2,3.5,Imprecise.
+mohler_908,mohler,mohler_6.1,2,5.0,Matches the model answer.
+mohler_910,mohler,mohler_6.1,2,3.5,Imprecise.
+mohler_917,mohler,mohler_6.1,2,4.0,"Correct, with unnecessary detail."
+mohler_924,mohler,mohler_6.2,2,5.0,Matches the model answer.
+mohler_929,mohler,mohler_6.2,2,5.0,Matches the model answer.
+mohler_934,mohler,mohler_6.2,2,2.5,Imprecise; it returns an address.
+mohler_935,mohler,mohler_6.2,2,5.0,Matches the model answer.
+mohler_937,mohler,mohler_6.2,2,5.0,Matches the model answer.
+mohler_938,mohler,mohler_6.2,2,5.0,Matches the model answer.
+mohler_945,mohler,mohler_6.3,2,5.0,Matches the model answer.
+mohler_953,mohler,mohler_6.3,2,5.0,Matches the model answer.
+mohler_954,mohler,mohler_6.3,2,4.0,"Value rather than an alias, but close."
+mohler_959,mohler,mohler_6.3,2,4.0,"Value rather than an alias, but close."
+mohler_963,mohler,mohler_6.3,2,5.0,Matches the model answer.
+mohler_966,mohler,mohler_6.3,2,1.5,Unclear.
+mohler_976,mohler,mohler_6.4,2,4.5,Correct notation.
+mohler_979,mohler,mohler_6.4,2,4.5,Correct notation.
+mohler_983,mohler,mohler_6.4,2,5.0,Matches the model answer: pointer to the first element plus offset.
+mohler_986,mohler,mohler_6.4,2,4.5,Correct notation.
+mohler_987,mohler,mohler_6.4,2,5.0,Correct notation with a pointer.
+mohler_989,mohler,mohler_6.4,2,4.5,Matches the pointer-increment idea.
+mohler_991,mohler,mohler_6.4,2,4.0,"Pointer offset idea, with a notation error."
+mohler_992,mohler,mohler_6.4,2,4.5,Correct notation.
+mohler_998,mohler,mohler_6.5,2,5.0,Matches the model answer.
+mohler_1001,mohler,mohler_6.5,2,3.5,Omits bytes.
+mohler_1016,mohler,mohler_6.5,2,4.5,Close; bytes not stated.
+mohler_1021,mohler,mohler_6.5,2,5.0,Matches the model answer.
+mohler_1032,mohler,mohler_6.6,2,1.5,Does not give the four const combinations.
+mohler_1035,mohler,mohler_6.6,2,5.0,Matches the model answer.
+mohler_1037,mohler,mohler_6.6,2,1.5,Does not give the four const combinations.
+mohler_1038,mohler,mohler_6.6,2,0.5,Incorrect.
+mohler_1052,mohler,mohler_6.7,2,5.0,Matches the model answer.
+mohler_1053,mohler,mohler_6.7,2,2.5,"Describes use, not what it is."
+mohler_1058,mohler,mohler_6.7,2,5.0,Matches the model answer.
+mohler_1065,mohler,mohler_6.7,2,5.0,Matches the model answer.
+mohler_1067,mohler,mohler_6.7,2,5.0,Matches the model answer.
+mohler_1069,mohler,mohler_6.7,2,5.0,Matches the model answer.
+mohler_1075,mohler,mohler_7.1,2,3.5,Describes linking but not dynamic allocation.
+mohler_1078,mohler,mohler_7.1,2,4.0,Good structural description; dynamic allocation not stated.
+mohler_1093,mohler,mohler_7.1,2,4.0,Good structural description; dynamic allocation not stated.
+mohler_1095,mohler,mohler_7.1,2,2.5,Imprecise.
+mohler_1101,mohler,mohler_7.2,2,5.0,Matches: size can change.
+mohler_1105,mohler,mohler_7.2,2,3.5,Constant-time insertion is valid but variable length is not stated.
+mohler_1106,mohler,mohler_7.2,2,5.0,Matches the model answer.
+mohler_1111,mohler,mohler_7.2,2,3.0,"A valid advantage, but not variable length."
+mohler_1113,mohler,mohler_7.2,2,5.0,Matches the model answer.
+mohler_1114,mohler,mohler_7.2,2,5.0,Matches the model answer.
+mohler_1121,mohler,mohler_7.2,2,4.5,Matches in substance.
+mohler_1126,mohler,mohler_7.3,2,5.0,Matches the model answer.
+mohler_1128,mohler,mohler_7.3,2,5.0,Matches the model answer.
+mohler_1134,mohler,mohler_7.3,2,0.5,Incorrect.
+mohler_1138,mohler,mohler_7.3,2,1.0,Not the main advantage.
+mohler_1139,mohler,mohler_7.3,2,5.0,Matches the model answer.
+mohler_1142,mohler,mohler_7.3,2,2.0,Not the main advantage.
+mohler_1144,mohler,mohler_7.3,2,5.0,Matches the model answer.
+mohler_1146,mohler,mohler_7.3,2,2.0,Not the main advantage.
+mohler_1158,mohler,mohler_7.4,2,4.0,A pointer to the head is effectively passing by reference.
+mohler_1161,mohler,mohler_7.4,2,5.0,Matches the model answer.
+mohler_1163,mohler,mohler_7.4,2,4.0,Close to the model answer.
+mohler_1167,mohler,mohler_7.4,2,3.0,Imprecise.
+mohler_1179,mohler,mohler_7.5,2,5.0,Matches the model answer.
+mohler_1191,mohler,mohler_7.5,2,5.0,Matches the model answer.
+mohler_1193,mohler,mohler_7.5,2,4.5,Matches in substance.
+mohler_1194,mohler,mohler_7.5,2,5.0,Matches the model answer.
+mohler_1197,mohler,mohler_7.5,2,5.0,Matches the model answer.
+mohler_1201,mohler,mohler_7.5,2,5.0,Matches the model answer.
+mohler_1204,mohler,mohler_7.6,2,3.0,"Valid, but not the constant-time operations in the model answer."
+mohler_1206,mohler,mohler_7.6,2,4.5,Close: deletion without traversal.
+mohler_1211,mohler,mohler_7.6,2,3.0,"Valid, but not the constant-time operations."
+mohler_1212,mohler,mohler_7.6,2,3.0,"Valid, but not the constant-time operations."
+mohler_1216,mohler,mohler_7.6,2,3.0,"Valid, but not the constant-time operations."
+mohler_1220,mohler,mohler_7.6,2,3.5,Partly matches.
+mohler_1227,mohler,mohler_7.6,2,3.0,"Valid, but not the constant-time operations."
+mohler_1231,mohler,mohler_7.7,2,2.5,"Complexity, not the extra space."
+mohler_1233,mohler,mohler_7.7,2,2.0,"Complexity, not the extra space."
+mohler_1239,mohler,mohler_7.7,2,2.0,"Complexity, not the extra space."
+mohler_1240,mohler,mohler_7.7,2,5.0,Matches: more memory.
+mohler_1256,mohler,mohler_8.1,2,5.0,Matches the model answer.
+mohler_1263,mohler,mohler_8.1,2,5.0,Matches the model answer.
+mohler_1265,mohler,mohler_8.1,2,1.5,Omits LIFO.
+mohler_1274,mohler,mohler_8.1,2,1.5,Omits LIFO.
+mohler_1275,mohler,mohler_8.1,2,4.5,Matches in substance.
+mohler_1278,mohler,mohler_8.1,2,5.0,Matches the model answer.
+mohler_1279,mohler,mohler_8.1,2,4.0,Close to the model answer.
+mohler_1284,mohler,mohler_8.2,2,5.0,Matches the model answer.
+mohler_1288,mohler,mohler_8.2,2,5.0,Matches the model answer.
+mohler_1295,mohler,mohler_8.2,2,5.0,Matches the model answer.
+mohler_1306,mohler,mohler_8.2,2,5.0,Matches the model answer.
+mohler_1313,mohler,mohler_8.3,2,4.5,Matches in substance.
+mohler_1314,mohler,mohler_8.3,2,4.0,Matches the top-at-end idea.
+mohler_1325,mohler,mohler_8.3,2,5.0,Matches the model answer.
+mohler_1331,mohler,mohler_8.3,2,3.0,Partial.
+mohler_1335,mohler,mohler_8.3,2,4.0,Matches in substance.
+mohler_1341,mohler,mohler_8.4,2,5.0,Matches the model answer.
+mohler_1344,mohler,mohler_8.4,2,5.0,Matches the model answer.
+mohler_1347,mohler,mohler_8.4,2,2.0,"Top at the end, not the head."
+mohler_1353,mohler,mohler_8.4,2,2.0,"Top at the end, not the head."
+mohler_1356,mohler,mohler_8.4,2,3.5,Partly matches.
+mohler_1381,mohler,mohler_8.6,2,5.0,Matches the model answer.
+mohler_1382,mohler,mohler_8.6,2,4.0,Conversion is right; evaluation is not stated.
+mohler_1386,mohler,mohler_8.6,2,3.0,"Evaluation only, no conversion."
+mohler_1387,mohler,mohler_8.6,2,4.5,Matches in substance.
+mohler_1388,mohler,mohler_8.6,2,3.0,Conversion only.
+mohler_1394,mohler,mohler_8.7,2,5.0,Matches the model answer.
+mohler_1397,mohler,mohler_8.7,2,3.0,Pop and compare but no restoration.
+mohler_1403,mohler,mohler_8.7,2,5.0,Matches the model answer.
+mohler_1406,mohler,mohler_8.7,2,2.5,No temporary stack or restoration.
+mohler_1415,mohler,mohler_8.7,2,3.0,Pushing back immediately would not work.
+mohler_1419,mohler,mohler_9.1,2,3.0,FIFO only implied.
+mohler_1427,mohler,mohler_9.1,2,5.0,Matches the model answer.
+mohler_1428,mohler,mohler_9.1,2,4.0,FIFO stated.
+mohler_1436,mohler,mohler_9.1,2,4.5,Matches in substance.
+mohler_1437,mohler,mohler_9.1,2,4.5,Matches in substance.
+mohler_1438,mohler,mohler_9.1,2,5.0,Matches the model answer.
+mohler_1445,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1446,mohler,mohler_9.2,2,4.5,Correct names.
+mohler_1447,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1448,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1453,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1454,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1460,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1461,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1462,mohler,mohler_9.2,2,5.0,Matches the model answer.
+mohler_1473,mohler,mohler_9.3,2,2.0,No circular array or pointers.
+mohler_1474,mohler,mohler_9.3,2,3.0,"Ends are right, but no wrap-around."
+mohler_1475,mohler,mohler_9.3,2,1.0,Does not describe the implementation.
+mohler_1478,mohler,mohler_9.3,2,4.5,Mentions the circular array.
+mohler_1481,mohler,mohler_9.3,2,1.5,Fixed size only.
+mohler_1495,mohler,mohler_9.3,2,4.5,Matches head/tail with wrap-around.
+mohler_1511,mohler,mohler_9.4,2,2.5,Reversed ends from the model answer.
+mohler_1523,mohler,mohler_9.4,2,2.5,Partial.
+mohler_1525,mohler,mohler_9.4,2,3.0,"Code adds at the rear, but no explanation of dequeue."
+mohler_1528,mohler,mohler_9.6,2,5.0,Matches the model answer.
+mohler_1536,mohler,mohler_9.6,2,5.0,Matches the model answer.
+mohler_1537,mohler,mohler_9.6,2,5.0,Matches the model answer.
+mohler_1542,mohler,mohler_9.6,2,5.0,Matches the model answer.
+mohler_1551,mohler,mohler_9.6,2,5.0,Matches the model answer.
+mohler_1554,mohler,mohler_10.1,2,5.0,Matches the model answer.
+mohler_1561,mohler,mohler_10.1,2,3.0,"Root is mentioned, but the partition into subtrees is missing."
+mohler_1563,mohler,mohler_10.1,2,3.0,Too general.
+mohler_1565,mohler,mohler_10.1,2,1.5,Describes a binary search tree.
+mohler_1582,mohler,mohler_10.2,2,5.0,Matches the model answer.
+mohler_1595,mohler,mohler_10.2,2,4.0,Close; number of levels.
+mohler_1602,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1605,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1612,mohler,mohler_10.3,2,3.5,Imprecise.
+mohler_1614,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1615,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1621,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1623,mohler,mohler_10.3,2,5.0,Matches the model answer.
+mohler_1627,mohler,mohler_10.4,2,5.0,Matches the model answer.
+mohler_1629,mohler,mohler_10.4,2,5.0,Matches the model answer.
+mohler_1635,mohler,mohler_10.4,2,3.5,"Correct property, but calls it a search tree."
+mohler_1639,mohler,mohler_10.4,2,5.0,Matches the model answer.
+mohler_1642,mohler,mohler_10.4,2,4.0,Matches in substance.
+mohler_1644,mohler,mohler_10.4,2,3.0,Says exactly two children instead of at most two.
+mohler_1646,mohler,mohler_10.4,2,4.0,"Correct child counts, but it is not a search tree."
+mohler_1653,mohler,mohler_10.5,2,4.5,Matches the ordering idea.
+mohler_1658,mohler,mohler_10.5,2,1.5,Too vague.
+mohler_1661,mohler,mohler_10.5,2,2.0,Vague; ordering rule not stated.
+mohler_1667,mohler,mohler_10.5,2,5.0,Matches the model answer.
+mohler_1669,mohler,mohler_10.5,2,5.0,Matches the model answer.
+mohler_1673,mohler,mohler_10.6,2,5.0,Matches the model answer.
+mohler_1677,mohler,mohler_10.6,2,5.0,Matches the model answer.
+mohler_1682,mohler,mohler_10.6,2,0.0,Incorrect.
+mohler_1687,mohler,mohler_10.6,2,1.5,Too vague.
+mohler_1689,mohler,mohler_10.6,2,5.0,Matches the model answer.
+mohler_1690,mohler,mohler_10.6,2,5.0,Matches the model answer.
+mohler_1694,mohler,mohler_10.6,2,4.0,Correct but convoluted.
+mohler_1698,mohler,mohler_10.7,2,5.0,Matches the model answer.
+mohler_1702,mohler,mohler_10.7,2,5.0,Matches the model answer.
+mohler_1708,mohler,mohler_10.7,2,0.5,Incorrect.
+mohler_1709,mohler,mohler_10.7,2,5.0,Matches the model answer.
+mohler_1711,mohler,mohler_10.7,2,1.5,Does not match the height or log n.
+mohler_1714,mohler,mohler_10.7,2,5.0,Matches: the height.
+mohler_1715,mohler,mohler_10.7,2,5.0,Matches the model answer.
+mohler_1716,mohler,mohler_10.7,2,5.0,Matches the model answer.
+mohler_1727,mohler,mohler_11.1,2,4.5,"Matches, with some redundancy."
+mohler_1733,mohler,mohler_11.1,2,3.5,Partly matches.
+mohler_1739,mohler,mohler_11.1,2,5.0,Matches the model answer.
+mohler_1749,mohler,mohler_11.1,2,4.5,Matches in substance.
+mohler_1750,mohler,mohler_11.1,2,0.5,Incorrect.
+mohler_1757,mohler,mohler_11.2,2,5.0,Matches the model answer.
+mohler_1760,mohler,mohler_11.2,2,5.0,"Matches, and adds protected correctly."
+mohler_1765,mohler,mohler_11.2,2,3.0,Static is not an access specifier.
+mohler_1767,mohler,mohler_11.2,2,5.0,Matches the model answer.
+mohler_1773,mohler,mohler_11.2,2,5.0,"Matches, and adds protected correctly."
+mohler_1774,mohler,mohler_11.2,2,2.5,Friend is not an access specifier and the default is private.
+mohler_1776,mohler,mohler_11.2,2,5.0,Matches the model answer.
+mohler_1785,mohler,mohler_11.3,2,0.5,Incorrect.
+mohler_1796,mohler,mohler_11.3,2,5.0,Matches: by constructors.
+mohler_1800,mohler,mohler_11.3,2,4.0,"Mentions constructors, though only the default one."
+mohler_1803,mohler,mohler_11.3,2,1.5,Does not mention constructors.
+mohler_1806,mohler,mohler_11.3,2,1.0,Too vague.
+mohler_1816,mohler,mohler_11.4,2,1.5,Too vague.
+mohler_1817,mohler,mohler_11.4,2,3.0,Return type is not part of the signature.
+mohler_1825,mohler,mohler_11.4,2,4.0,"Name and parameters, types not stated."
+mohler_1826,mohler,mohler_11.4,2,5.0,Matches the model answer.
+mohler_1830,mohler,mohler_11.4,2,2.0,Scope and type are not part of it.
+mohler_1834,mohler,mohler_11.4,2,3.5,Parameter types without the name.
+mohler_1835,mohler,mohler_11.4,2,4.5,Matches in substance.
+mohler_1836,mohler,mohler_11.4,2,4.5,Matches in substance.
+mohler_1841,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1844,mohler,mohler_11.5,2,2.5,Confused wording.
+mohler_1852,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1853,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1855,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1856,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1862,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1863,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1865,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1867,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1869,mohler,mohler_11.5,2,5.0,Matches the model answer.
+mohler_1882,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1883,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1885,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1886,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1896,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1898,mohler,mohler_11.6,2,5.0,Matches the model answer.
+mohler_1905,mohler,mohler_11.7,2,2.5,Vague; initialised once is not stated.
+mohler_1910,mohler,mohler_11.7,2,4.5,Matches in substance.
+mohler_1912,mohler,mohler_11.7,2,0.0,Incorrect.
+mohler_1916,mohler,mohler_11.7,2,4.0,Close to the model answer.
+mohler_1922,mohler,mohler_11.7,2,0.5,Incorrect.
+mohler_1932,mohler,mohler_11.8,2,0.0,Does not address the null character.
+mohler_1935,mohler,mohler_11.8,2,0.0,Incorrect.
+mohler_1944,mohler,mohler_11.8,2,3.5,"Right type, but calls it end of line rather than null."
+mohler_1946,mohler,mohler_11.8,2,1.0,Attributes the null character to the wrong type.
+mohler_1954,mohler,mohler_11.8,2,2.5,Does not mention the null character.
+mohler_1957,mohler,mohler_11.8,2,5.0,Matches the model answer.
+mohler_1958,mohler,mohler_11.8,2,2.0,Ambiguous about which type.
+mohler_1961,mohler,mohler_11.9,2,2.5,Dividing only; no solving or combining.
+mohler_1965,mohler,mohler_11.9,2,1.5,Vague.
+mohler_1970,mohler,mohler_11.9,2,2.5,Dividing only.
+mohler_1975,mohler,mohler_11.9,2,5.0,Matches the model answer.
+mohler_1987,mohler,mohler_11.9,2,1.0,Not divide-and-conquer.
+mohler_2002,mohler,mohler_11.11,2,5.0,Matches the model answer.
+mohler_2013,mohler,mohler_11.11,2,5.0,Matches the model answer.
+mohler_2016,mohler,mohler_11.11,2,4.5,Matches in substance.
+mohler_2024,mohler,mohler_12.1,2,5.0,Matches the model answer.
+mohler_2026,mohler,mohler_12.1,2,4.5,Matches in substance.
+mohler_2031,mohler,mohler_12.1,2,5.0,Matches the model answer.
+mohler_2040,mohler,mohler_12.1,2,4.5,Matches in substance.
+mohler_2051,mohler,mohler_12.2,2,0.0,Not the experimental approach.
+mohler_2053,mohler,mohler_12.2,2,5.0,Matches the model answer.
+mohler_2054,mohler,mohler_12.2,2,3.0,Partly matches.
+mohler_2056,mohler,mohler_12.2,2,0.0,No answer.
+mohler_2063,mohler,mohler_12.2,2,2.0,Counts calls rather than measuring time.
+mohler_2066,mohler,mohler_12.2,2,4.5,Matches: measure physical running time.
+mohler_2077,mohler,mohler_12.4,2,5.0,Matches the model answer.
+mohler_2079,mohler,mohler_12.4,2,1.0,Inaccurate.
+mohler_2080,mohler,mohler_12.4,2,0.0,Describes merge sort.
+mohler_2081,mohler,mohler_12.4,2,4.5,Matches in substance.
+mohler_2088,mohler,mohler_12.4,2,3.0,Partly matches; pivot wording is wrong.
+mohler_2091,mohler,mohler_12.4,2,4.5,Matches in substance.
+mohler_2092,mohler,mohler_12.4,2,0.5,Describes partitioning.
+mohler_2101,mohler,mohler_12.4,2,5.0,Matches the model answer.
+mohler_2111,mohler,mohler_12.5,2,5.0,Matches the model answer.
+mohler_2112,mohler,mohler_12.5,2,5.0,Matches the model answer.
+mohler_2117,mohler,mohler_12.5,2,5.0,Matches the model answer.
+mohler_2121,mohler,mohler_12.5,2,5.0,Matches the model answer.
+mohler_2125,mohler,mohler_12.5,2,4.0,Close to the model answer.
+mohler_2138,mohler,mohler_12.6,2,4.5,Describes FIFO behaviour.
+mohler_2141,mohler,mohler_12.6,2,3.0,Mentions enqueue and dequeue but not FIFO.
+mohler_2142,mohler,mohler_12.6,2,2.5,Contradicts itself between FILO and FIFO.
+mohler_2143,mohler,mohler_12.6,2,0.5,Incorrect.
+mohler_2146,mohler,mohler_12.6,2,4.5,FIFO stated.
+mohler_2153,mohler,mohler_12.6,2,4.5,FIFO stated.
+mohler_2154,mohler,mohler_12.6,2,5.0,Matches the model answer.
+mohler_2156,mohler,mohler_12.6,2,4.5,FIFO stated.
+mohler_2169,mohler,mohler_12.7,2,5.0,Matches the model answer.
+mohler_2174,mohler,mohler_12.7,2,4.5,"Matches, with extra operations."
+mohler_2176,mohler,mohler_12.7,2,4.5,"Matches, with an extra operation."
+mohler_2179,mohler,mohler_12.7,2,5.0,Matches the model answer.
+mohler_2180,mohler,mohler_12.7,2,5.0,Matches the model answer.
+mohler_2187,mohler,mohler_12.7,2,5.0,Matches the model answer.
+mohler_2202,mohler,mohler_12.8,2,4.5,"Matches: left, below and right visits."
+mohler_2204,mohler,mohler_12.8,2,1.5,Describes in-order traversal.
+mohler_2208,mohler,mohler_12.8,2,5.0,Matches the model answer.
+mohler_2212,mohler,mohler_12.8,2,3.0,"Captures going around the tree, but vague."
+mohler_2215,mohler,mohler_12.8,2,0.0,Incorrect.
+mohler_2216,mohler,mohler_12.8,2,2.0,Only the general shape.
+mohler_2219,mohler,mohler_12.9,2,1.0,Vague.
+mohler_2221,mohler,mohler_12.9,2,1.5,Does not handle children.
+mohler_2227,mohler,mohler_12.9,2,0.0,No method.
+mohler_2232,mohler,mohler_12.9,2,5.0,Matches the model answer.
+mohler_2233,mohler,mohler_12.9,2,0.0,Describes a linked list.
+mohler_2242,mohler,mohler_12.9,2,2.5,"Goal right, no method."
+mohler_2244,mohler,mohler_12.9,2,2.0,Garbled.
+mohler_2247,mohler,mohler_12.11,2,5.0,Matches the model answer.
+mohler_2250,mohler,mohler_12.11,2,4.0,Correct for a balanced tree; height not stated.
+mohler_2255,mohler,mohler_12.11,2,4.0,Correct for a balanced tree; height not stated.
+mohler_2257,mohler,mohler_12.11,2,4.0,Correct for a balanced tree; height not stated.
+mohler_2260,mohler,mohler_12.11,2,4.0,Valid range; height not stated.
+mohler_2266,mohler,mohler_12.11,2,5.0,Matches the model answer.
+mohler_2268,mohler,mohler_12.11,2,4.0,Correct for a balanced tree; height not stated.
+mohler_2269,mohler,mohler_12.11,2,0.0,Incorrect.
+mohler_2270,mohler,mohler_12.11,2,0.5,Incorrect.
+saf_TC_10.1.3,saf,saf_10.1,2,0.25,"Protocol behaviour, not header differences."
+saf_TC_10.1.7,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.18,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.27,saf,saf_10.1,2,0.25,"Protocol behaviour, not header differences."
+saf_TC_10.1.40,saf,saf_10.1,2,0.0,No answer.
+saf_TC_10.1.41,saf,saf_10.1,2,1.0,Gives four header differences.
+saf_TC_10.1.61,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.63,saf,saf_10.1,2,1.0,Gives four header differences.
+saf_TC_10.1.66,saf,saf_10.1,2,0.0,No answer.
+saf_TC_10.1.76,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.81,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.82,saf,saf_10.1,2,1.0,Gives four header differences.
+saf_TC_10.1.87,saf,saf_10.1,2,0.0,No answer.
+saf_TC_10.1.93,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.1.96,saf,saf_10.1,2,1.0,Gives several header differences.
+saf_TC_10.2.2,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.6,saf,saf_10.2,2,0.875,Mostly matches; cwnd grows by one per ACK rather than doubling per ACK.
+saf_TC_10.2.8,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.11,saf,saf_10.2,2,0.0,No answer.
+saf_TC_10.2.17,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.27,saf,saf_10.2,2,0.5,"Phases named, but the cwnd and ss_thresh changes are muddled."
+saf_TC_10.2.30,saf,saf_10.2,2,0.875,Mostly matches; linear growth in congestion avoidance is not stated.
+saf_TC_10.2.35,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.44,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.45,saf,saf_10.2,2,0.75,"cwnd should reset to 1, and ss_thresh becomes cwnd/2."
+saf_TC_10.2.47,saf,saf_10.2,2,0.0,No answer.
+saf_TC_10.2.50,saf,saf_10.2,2,0.5,Loss does not move TCP into congestion avoidance; linear growth missing.
+saf_TC_10.2.51,saf,saf_10.2,2,0.625,"Phases are mixed up, though the reset rules are right."
+saf_TC_10.2.58,saf,saf_10.2,2,0.75,Brief; ss_thresh should be set to cwnd/2.
+saf_TC_10.2.59,saf,saf_10.2,2,0.75,Linear growth in congestion avoidance is missing.
+saf_TC_10.2.62,saf,saf_10.2,2,0.375,Phase 2 behaviour does not match the model answer.
+saf_TC_10.2.65,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.67,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.68,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.79,saf,saf_10.2,2,0.25,"Phases named, but no changes explained."
+saf_TC_10.2.84,saf,saf_10.2,2,0.0,No answer.
+saf_TC_10.2.87,saf,saf_10.2,2,0.0,No answer.
+saf_TC_10.2.88,saf,saf_10.2,2,0.75,Linear growth in congestion avoidance is missing.
+saf_TC_10.2.92,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.2.93,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.3.4,saf,saf_10.3,2,0.875,"Mapping, forwarding and flooding covered; learning only vaguely described."
+saf_TC_10.3.5,saf,saf_10.3,2,0.5,"Learning is correct, but forwarding use and benefit are missing."
+saf_TC_10.3.10,saf,saf_10.3,2,1.0,Matches the model answer.
+saf_TC_10.3.25,saf,saf_10.3,2,0.5,Learning is right; selective forwarding and a listed benefit are missing.
+saf_TC_10.3.28,saf,saf_10.3,2,0.0,No answer.
+saf_TC_10.3.30,saf,saf_10.3,2,0.5,Learning is right; forwarding use is vague and no benefit is given.
+saf_TC_10.3.35,saf,saf_10.3,2,1.0,"Matches the model answer, including timestamps."
+saf_TC_10.3.37,saf,saf_10.3,2,1.0,Matches the model answer.
+saf_TC_10.3.43,saf,saf_10.3,2,0.375,Vague contents; forwarding not explained.
+saf_TC_10.3.48,saf,saf_10.3,2,0.75,"Contents, learning and forwarding match; the benefit does not."
+saf_TC_10.3.49,saf,saf_10.3,2,1.0,Matches the model answer.
+saf_TC_10.3.53,saf,saf_10.3,2,0.0,No answer.
+saf_TC_10.3.54,saf,saf_10.3,2,0.5,Contents and learning match; forwarding and benefit missing.
+saf_TC_10.3.56,saf,saf_10.3,2,0.75,"Contents, learning and forwarding match; the benefit does not."
+saf_TC_10.3.57,saf,saf_10.3,2,1.0,Matches the model answer.
+saf_TC_10.3.63,saf,saf_10.3,2,0.5,Learning matches; forwarding use and benefit missing.
+saf_TC_10.3.84,saf,saf_10.3,2,0.0,No answer.
+saf_TC_10.3.86,saf,saf_10.3,2,0.0,No answer.
+saf_TC_10.3.87,saf,saf_10.3,2,0.0,No answer.
+saf_TC_10.3.90,saf,saf_10.3,2,0.625,Learning and forwarding match; contents are inaccurate and the benefit does not match.
+saf_TC_10.3.93,saf,saf_10.3,2,0.75,Contents and forwarding match; learning and benefit not clearly given.
+saf_PE_12.1.2,saf,saf_12.1,2,1.0,Correct order with subset justification.
+saf_PE_12.1.4,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.8,saf,saf_12.1,2,1.0,Correct order and probabilities with a minor slip.
+saf_PE_12.1.10,saf,saf_12.1,2,1.0,Correct order with subset justification.
+saf_PE_12.1.16,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.19,saf,saf_12.1,2,0.875,"Correct order, but P(B) is not 1/64."
+saf_PE_12.1.22,saf,saf_12.1,2,0.875,Correct order; justification for A is weak.
+saf_PE_12.1.25,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.26,saf,saf_12.1,2,1.0,Correct order with valid justification.
+saf_PE_12.1.27,saf,saf_12.1,2,0.5,Order roughly implied; P(C) is wrong.
+saf_PE_12.1.28,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.32,saf,saf_12.1,2,0.625,"Final order right, but the reasoning and P(C) contain errors."
+saf_PE_12.1.44,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.60,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.61,saf,saf_12.1,2,0.875,"Correct values make the order apparent, though it is not stated."
+saf_PE_12.1.62,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.64,saf,saf_12.1,2,1.0,Correct order with subset justification.
+saf_PE_12.1.72,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.74,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.75,saf,saf_12.1,2,1.0,Correct order with calculations.
+saf_PE_12.1.78,saf,saf_12.1,2,1.0,Correct order with subset justification.
+saf_PE_12.1.79,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.87,saf,saf_12.1,2,0.0,No answer.
+saf_PE_12.1.89,saf,saf_12.1,2,1.0,Correct order with subset justification.
+saf_PE_12.2.6,saf,saf_12.2,2,0.0,Incorrect reasoning and result.
+saf_PE_12.2.12,saf,saf_12.2,2,0.75,"Correct result of about 57 s, but the steps are vague."
+saf_PE_12.2.16,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.21,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.26,saf,saf_12.2,2,0.25,Wrong sum of states and wrong result.
+saf_PE_12.2.27,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.31,saf,saf_12.2,2,0.5,"Correct blocking probability, but the final interpretation is wrong."
+saf_PE_12.2.33,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.2.44,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.45,saf,saf_12.2,2,0.0,Treats the system deterministically.
+saf_PE_12.2.49,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.55,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.58,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.62,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.2.64,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.65,saf,saf_12.2,2,1.0,Matches the model answer.
+saf_PE_12.2.72,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.2.79,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.2.80,saf,saf_12.2,2,0.0,Incorrect conclusion.
+saf_PE_12.2.85,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.3.10,saf,saf_12.3,2,0.0,No answer.
+saf_PE_12.3.17,saf,saf_12.3,2,1.0,"Matches: dependent, bursty streaming traffic."
+saf_PE_12.3.18,saf,saf_12.3,2,1.0,Matches: bursty traffic.
+saf_PE_12.3.21,saf,saf_12.3,2,1.0,Matches: video buffering causes bursts and gaps.
+saf_PE_12.3.23,saf,saf_12.3,2,0.875,"Valid dependence, though not framed as bursts."
+saf_PE_12.3.25,saf,saf_12.3,2,0.75,Correct conclusion with a brief explanation.
+saf_PE_12.3.34,saf,saf_12.3,2,0.0,No answer.
+saf_PE_12.3.39,saf,saf_12.3,2,0.875,Valid dependence through congestion control.
+saf_PE_12.3.40,saf,saf_12.3,2,0.0,No answer.
+saf_PE_12.3.41,saf,saf_12.3,2,1.0,Matches: arrivals in streaming are dependent.
+saf_PE_12.3.52,saf,saf_12.3,2,1.0,Matches: video bursts and pauses.
+saf_PE_12.3.55,saf,saf_12.3,2,1.0,Matches: packets arrive in bursts.
+saf_PE_12.3.64,saf,saf_12.3,2,1.0,Matches: on/off bursty video traffic.
+saf_PE_12.3.66,saf,saf_12.3,2,0.0,No answer.
+saf_PE_12.3.70,saf,saf_12.3,2,1.0,Matches: streaming creates dependence.
+saf_PE_12.3.79,saf,saf_12.3,2,0.0,No answer.
+saf_PE_12.3.80,saf,saf_12.3,2,0.75,Correct conclusion with a brief reason.
+saf_PE_12.3.82,saf,saf_12.3,2,1.0,Matches: related packets arrive together.
+saf_PE_12.3.83,saf,saf_12.3,2,0.0,Incorrect; the assumption does not hold.
+saf_PE_12.3.90,saf,saf_12.3,2,0.5,Right conclusion with a weak reason.
+saf_PE_12.3.96,saf,saf_12.3,2,0.25,Does not clearly say the assumption fails.
+saf_DLL_2.1.4,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.5,saf,saf_2.1,2,0.75,"Names correct; loss, flow control and error differences are not covered."
+saf_DLL_2.1.14,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.19,saf,saf_2.1,2,0.875,Names and mechanisms correct; flow control and error properties partly missing.
+saf_DLL_2.1.23,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.26,saf,saf_2.1,2,0.875,Names and flow control correct; loss and duplicate properties missing.
+saf_DLL_2.1.34,saf,saf_2.1,2,0.75,Names correct; differences are brief.
+saf_DLL_2.1.38,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.39,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.41,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.53,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.56,saf,saf_2.1,2,0.75,"Names correct, but the connectionless classes are not distinguished."
+saf_DLL_2.1.58,saf,saf_2.1,2,0.75,Names correct; differences are brief.
+saf_DLL_2.1.63,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.66,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.70,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.72,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.80,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.82,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.83,saf,saf_2.1,2,0.875,Mostly matches; duplicates and sequence errors are not mentioned.
+saf_DLL_2.1.84,saf,saf_2.1,2,0.875,Mostly matches; the acknowledgement difference is not stated.
+saf_DLL_2.1.89,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.2.12,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.18,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.23,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.31,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.35,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.38,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.47,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.50,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.52,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.53,saf,saf_2.2,2,0.5,"Frames versus characters is right, but the duplex claims are wrong."
+saf_DLL_2.2.55,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.57,saf,saf_2.2,2,0.75,Asynchronous matches; synchronous lacks frames.
+saf_DLL_2.2.60,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.64,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.65,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.72,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.74,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.75,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.86,saf,saf_2.2,2,1.0,"Matches the model answer, though brief."
+saf_DLL_2.2.88,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.95,saf,saf_2.2,2,0.875,"Matches, with one confused sentence."
+saf_DLL_2.2.96,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.3.4,saf,saf_2.3,2,1.0,Matches: two-way communication.
+saf_DLL_2.3.5,saf,saf_2.3,2,1.0,Matches: duplex and implicit ACKs.
+saf_DLL_2.3.6,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.7,saf,saf_2.3,2,1.0,Matches: full duplex.
+saf_DLL_2.3.10,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.20,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.24,saf,saf_2.3,2,1.0,Matches: both directions.
+saf_DLL_2.3.32,saf,saf_2.3,2,1.0,Matches: both sides send data.
+saf_DLL_2.3.46,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.49,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.56,saf,saf_2.3,2,0.5,Timing only; duplex not stated.
+saf_DLL_2.3.57,saf,saf_2.3,2,0.75,"Duplex is mentioned, with inaccurate extras."
+saf_DLL_2.3.59,saf,saf_2.3,2,0.25,Sequence numbers only.
+saf_DLL_2.3.60,saf,saf_2.3,2,1.0,Matches: an ACK field in the frame header.
+saf_DLL_2.3.65,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.67,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.68,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.86,saf,saf_2.3,2,0.0,Unrelated answer.
+saf_DLL_2.3.89,saf,saf_2.3,2,1.0,Matches: full duplex and ACKs in frames.
+saf_DLL_2.3.93,saf,saf_2.3,2,0.25,Discusses window sizes instead.
+saf_DLL_2.3.96,saf,saf_2.3,2,0.75,"Mentions ACKs carried in frames, but not duplex."
+saf_LM_4.1.1,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.6,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.7,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.8,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.18,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.22,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.35,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.39,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.42,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.58,saf,saf_4.1,2,0.875,Says almost the same factor.
+saf_LM_4.1.61,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.62,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.63,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.67,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.69,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.71,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.72,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.75,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.79,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.81,saf,saf_4.1,2,0.75,Says it shrinks but not by a factor of 10.
+saf_LM_4.1.92,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.2.2,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.4,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.9,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.11,saf,saf_2.1,2,0.0,No answer.
+saf_LM_4.2.14,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.19,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.25,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.38,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.40,saf,saf_2.1,2,0.0,No answer.
+saf_LM_4.2.44,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.45,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.54,saf,saf_2.1,2,0.5,"Advantage and disadvantage match, but the definition is wrong."
+saf_LM_4.2.59,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.64,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.65,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.68,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.87,saf,saf_2.1,2,0.5,Vague definition; the disadvantage does not match.
+saf_LM_4.2.90,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.91,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.95,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.8,saf,saf_2.1,2,1.0,Matches: position determines reservation chances.
+saf_LM_4.3.14,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.16,saf,saf_2.1,2,1.0,Matches: position gives an advantage in reservations.
+saf_LM_4.3.28,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.33,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.35,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.37,saf,saf_2.1,2,0.875,Matches; the overwriting claim is inaccurate.
+saf_LM_4.3.41,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.50,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.51,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.52,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.53,saf,saf_2.1,2,0.0,No answer.
+saf_LM_4.3.60,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.61,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.64,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.70,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.79,saf,saf_2.1,2,0.625,Mentions fairness but not the role of position.
+saf_LM_4.3.84,saf,saf_2.1,2,0.5,Wrongly says reservations do not depend on location.
+saf_LM_4.3.86,saf,saf_2.1,2,0.75,Fairness without the role of position.
+saf_LM_4.3.88,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.93,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_IPP_6.1.1,saf,saf_6.1,2,1.0,Gives at least four listed objectives.
+saf_IPP_6.1.2,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.5,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.12,saf,saf_6.1,2,1.0,Gives at least four valid objectives.
+saf_IPP_6.1.17,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.18,saf,saf_6.1,2,1.0,Gives at least four listed objectives.
+saf_IPP_6.1.19,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.22,saf,saf_6.1,2,1.0,Gives all listed objectives.
+saf_IPP_6.1.25,saf,saf_6.1,2,1.0,Gives five listed objectives.
+saf_IPP_6.1.35,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.37,saf,saf_6.1,2,1.0,Gives several listed objectives.
+saf_IPP_6.1.41,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.42,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.48,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.49,saf,saf_6.1,2,1.0,Gives several listed objectives.
+saf_IPP_6.1.58,saf,saf_6.1,2,1.0,Gives four valid objectives.
+saf_IPP_6.1.82,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.91,saf,saf_6.1,2,1.0,Gives all listed objectives.
+saf_IPP_6.1.93,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.1.96,saf,saf_6.1,2,1.0,Gives many listed objectives.
+saf_IPP_6.2.8,saf,saf_6.2,2,1.0,Matches: location and the faster processing advantage.
+saf_IPP_6.2.9,saf,saf_6.2,2,0.5,Location roughly right; the advantage is not one of those accepted.
+saf_IPP_6.2.11,saf,saf_6.2,2,0.75,Correct location; being optional is not the accepted main advantage.
+saf_IPP_6.2.18,saf,saf_6.2,2,0.75,Correct location; the advantage given is not the accepted one.
+saf_IPP_6.2.20,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.24,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.25,saf,saf_6.2,2,0.625,Location correct; the advantage is only loosely related.
+saf_IPP_6.2.26,saf,saf_6.2,2,1.0,Matches: new headers without changing the fixed header.
+saf_IPP_6.2.32,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.38,saf,saf_6.2,2,1.0,Matches: new headers can be added.
+saf_IPP_6.2.43,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.53,saf,saf_6.2,2,0.0,No answer.
+saf_IPP_6.2.55,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.59,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.69,saf,saf_6.2,2,0.75,Correct location; the advantage is only loosely related.
+saf_IPP_6.2.79,saf,saf_6.2,2,0.5,Location vague and size claim wrong; advantage partly right.
+saf_IPP_6.2.87,saf,saf_6.2,2,0.0,No answer.
+saf_IPP_6.2.88,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.91,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.2.92,saf,saf_6.2,2,0.75,Correct location; the advantage is not one of those accepted.
+saf_IPP_6.3.11,saf,saf_6.3,2,0.75,Correct but brief; extra configuration not mentioned.
+saf_IPP_6.3.18,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.20,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.30,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.38,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.39,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.44,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.49,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.61,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.62,saf,saf_6.3,2,0.25,"Describes address resolution, not DHCP."
+saf_IPP_6.3.63,saf,saf_6.3,2,0.875,Uses match; what DHCP is is not stated.
+saf_IPP_6.3.68,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.71,saf,saf_6.3,2,0.875,Matches; extra configuration not mentioned.
+saf_IPP_6.3.72,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_IPP_6.3.86,saf,saf_6.3,2,0.875,Matches; extra configuration not mentioned.
+saf_IPP_6.3.93,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_MM_8.1.6,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.7,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.10,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.14,saf,saf_8.1,2,0.5,Security is listed but weakly described; service discovery is not a listed challenge.
+saf_MM_8.1.15,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.18,saf,saf_8.1,2,1.0,Names and describes three listed challenges.
+saf_MM_8.1.20,saf,saf_8.1,2,1.0,Names and describes adaptation and addressing challenges.
+saf_MM_8.1.28,saf,saf_8.1,2,0.0,No answer.
+saf_MM_8.1.31,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.49,saf,saf_8.1,2,1.0,Names and describes several listed challenges.
+saf_MM_8.1.51,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.69,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.79,saf,saf_8.1,2,0.75,Names two listed challenges with brief descriptions.
+saf_MM_8.1.82,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.1.92,saf,saf_8.1,2,0.875,Adaptation is listed; signalling overhead is only loosely related.
+saf_MM_8.1.95,saf,saf_8.1,2,1.0,Names and describes heterogeneity and security.
+saf_MM_8.2.4,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.11,saf,saf_8.2,2,0.0,No answer.
+saf_MM_8.2.12,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.19,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.29,saf,saf_8.2,2,0.875,Working matches; the purpose is stated weakly.
+saf_MM_8.2.32,saf,saf_8.2,2,0.875,Working matches; the purpose is given as loop-freedom rather than fewer duplicates.
+saf_MM_8.2.35,saf,saf_8.2,2,0.75,"RPF matches, but the RPB purpose is wrong."
+saf_MM_8.2.43,saf,saf_8.2,2,0.875,Working matches; the purpose is stated as loop-freedom.
+saf_MM_8.2.45,saf,saf_8.2,2,0.75,RPF matches; RPB is vague.
+saf_MM_8.2.60,saf,saf_8.2,2,0.0,No answer.
+saf_MM_8.2.68,saf,saf_8.2,2,0.875,Working matches; the purpose is weak.
+saf_MM_8.2.70,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.72,saf,saf_8.2,2,0.0,No answer.
+saf_MM_8.2.75,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.83,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.84,saf,saf_8.2,2,0.75,"Working described, but the purpose is weak and RPB steps are muddled."
+saf_MM_8.2.91,saf,saf_8.2,2,0.875,Working matches; the purpose is given as loop-freedom and anti-spoofing.
+saf_MM_8.3.3,saf,saf_8.3,2,0.5,"Property matches, but the Link State Routing modification is missing."
+saf_MM_8.3.5,saf,saf_8.3,2,0.25,Property only partly right; no multicast group information.
+saf_MM_8.3.6,saf,saf_8.3,2,0.5,Property matches; the modification does not match the model answer.
+saf_MM_8.3.8,saf,saf_8.3,2,0.625,Property matches; the modification lacks multicast group information.
+saf_MM_8.3.11,saf,saf_8.3,2,0.0,No answer.
+saf_MM_8.3.13,saf,saf_8.3,2,0.5,"Modification matches, but the property is not stated."
+saf_MM_8.3.19,saf,saf_8.3,2,0.5,"Modification matches, but the property given is wrong."
+saf_MM_8.3.22,saf,saf_8.3,2,0.75,Modification mostly matches; the property is only implied.
+saf_MM_8.3.24,saf,saf_8.3,2,0.5,"Property matches, but no modification is given."
+saf_MM_8.3.30,saf,saf_8.3,2,0.75,Property matches; the modification lacks multicast group information.
+saf_MM_8.3.32,saf,saf_8.3,2,0.75,Property matches; the modification lacks multicast group information.
+saf_MM_8.3.48,saf,saf_8.3,2,0.75,Property matches; the modification lacks multicast group information.
+saf_MM_8.3.49,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.50,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.52,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.58,saf,saf_8.3,2,0.0,Does not match either part.
+saf_MM_8.3.59,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.60,saf,saf_8.3,2,0.0,No answer.
+saf_MM_8.3.68,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.70,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.89,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.90,saf,saf_8.3,2,1.0,"Matches the property, with a valid pruning approach."
+saf_MM_8.3.91,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_TC_10.1.10,saf,saf_10.1,2,1.0,Gives several listed differences.
+saf_TC_10.1.46,saf,saf_10.1,2,0.0,No answer.
+saf_TC_10.1.48,saf,saf_10.1,2,1.0,Gives several listed differences.
+saf_TC_10.2.4,saf,saf_10.2,2,0.875,Mostly matches; resetting cwnd to 1 is not stated.
+saf_TC_10.2.91,saf,saf_10.2,2,1.0,Matches the model answer.
+saf_TC_10.3.59,saf,saf_10.3,2,0.625,"Learning matches, but the forwarding use is wrong."
+saf_TC_10.3.61,saf,saf_10.3,2,0.75,"Contents, learning and forwarding match; the benefit is not one listed."
+saf_TC_10.3.80,saf,saf_10.3,2,0.75,"Contents, learning and forwarding match; the benefit does not."
+saf_PE_12.1.12,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.21,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.1.45,saf,saf_12.1,2,1.0,Correct order with correct calculations.
+saf_PE_12.2.8,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.2.48,saf,saf_12.2,2,0.875,Correct method; the final figure is slightly off.
+saf_PE_12.2.59,saf,saf_12.2,2,0.0,Incorrect reasoning.
+saf_PE_12.2.87,saf,saf_12.2,2,0.0,No answer.
+saf_PE_12.3.38,saf,saf_12.3,2,1.0,Matches the model answer.
+saf_PE_12.3.48,saf,saf_12.3,2,0.875,Correct conclusion via retransmissions rather than bursts.
+saf_PE_12.3.60,saf,saf_12.3,2,0.0,No answer.
+saf_DLL_2.1.52,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.1.62,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_DLL_2.2.8,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.28,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.37,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.51,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.2.62,saf,saf_2.2,2,1.0,Matches the model answer.
+saf_DLL_2.3.28,saf,saf_2.3,2,0.0,No answer.
+saf_DLL_2.3.63,saf,saf_2.3,2,1.0,Matches: both sides must send frames with ACKs.
+saf_DLL_2.3.75,saf,saf_2.3,2,1.0,Matches: duplex.
+saf_DLL_2.3.77,saf,saf_2.3,2,1.0,Matches: frames need an ACK field.
+saf_LM_4.1.27,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.48,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.1.85,saf,saf_4.1,2,1.0,Matches the model answer.
+saf_LM_4.2.1,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.21,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.2.53,saf,saf_2.1,2,0.5,"Advantage and disadvantage match, but no definition."
+saf_LM_4.2.92,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.23,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.26,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.31,saf,saf_2.1,2,0.75,Names fairness but not the role of position.
+saf_LM_4.3.54,saf,saf_2.1,2,0.625,"Names fairness, but the explanation is partly wrong."
+saf_LM_4.3.57,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.66,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_LM_4.3.90,saf,saf_2.1,2,1.0,Matches the model answer.
+saf_IPP_6.1.54,saf,saf_6.1,2,1.0,Gives four listed objectives.
+saf_IPP_6.2.3,saf,saf_6.2,2,0.75,Correct location; the advantage given is not one of those accepted.
+saf_IPP_6.2.15,saf,saf_6.2,2,1.0,Matches: new options can be added flexibly.
+saf_IPP_6.2.37,saf,saf_6.2,2,0.625,"Advantage matches, but the definition and location are inaccurate."
+saf_IPP_6.2.83,saf,saf_6.2,2,1.0,Matches the model answer.
+saf_IPP_6.3.45,saf,saf_6.3,2,0.875,Uses match; the first sentence describes RARP rather than DHCP.
+saf_IPP_6.3.52,saf,saf_6.3,2,1.0,Matches the model answer.
+saf_MM_8.1.19,saf,saf_8.1,2,1.0,Names and describes two listed challenges.
+saf_MM_8.2.2,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.2.67,saf,saf_8.2,2,1.0,Matches the model answer.
+saf_MM_8.3.42,saf,saf_8.3,2,1.0,Matches the model answer.
+saf_MM_8.3.45,saf,saf_8.3,2,0.5,"Property matches, but the modification is wrong."
+saf_SDN_11.1.3,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.9,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.20,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.26,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.36,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.37,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.38,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.40,saf,saf_11.1,2,0.0,No answer.
+saf_SDN_11.1.44,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.49,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.54,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.76,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.83,saf,saf_11.1,2,1.0,Matches the model answer.
+saf_SDN_11.1.84,saf,saf_11.1,2,0.0,No answer.
+saf_SDN_11.1.85,saf,saf_11.1,2,0.0,No answer.
+saf_SDN_11.2.2,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.3,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.4,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.10,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.12,saf,saf_11.2,2,1.0,Two listed benefits and two valid drawbacks.
+saf_SDN_11.2.16,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.21,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.25,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.28,saf,saf_11.2,2,0.0,No answer.
+saf_SDN_11.2.31,saf,saf_11.2,2,0.75,Benefits match; the drawbacks are weakly argued.
+saf_SDN_11.2.33,saf,saf_11.2,2,0.75,Benefits match; one drawback is doubtful.
+saf_SDN_11.2.38,saf,saf_11.2,2,1.0,Two listed benefits and two valid drawbacks.
+saf_SDN_11.2.39,saf,saf_11.2,2,1.0,Two listed benefits and two valid drawbacks.
+saf_SDN_11.2.42,saf,saf_11.2,2,0.625,Benefits match; the drawbacks given are not among those listed.
+saf_SDN_11.2.46,saf,saf_11.2,2,0.0,No answer.
+saf_SDN_11.2.63,saf,saf_11.2,2,1.0,Two listed benefits and two listed drawbacks.
+saf_SDN_11.2.72,saf,saf_11.2,2,0.0,No answer.
+saf_SDN_11.2.86,saf,saf_11.2,2,0.0,No answer.
+saf_SDN_11.2.87,saf,saf_11.2,2,0.0,No answer.
+saf_SDN_11.3.2,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.8,saf,saf_11.3,2,0.0,Wrong modes.
+saf_SDN_11.3.14,saf,saf_11.3,2,0.0,No answer.
+saf_SDN_11.3.20,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.27,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.30,saf,saf_11.3,2,0.5,"Correct modes, but only one downside."
+saf_SDN_11.3.35,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.38,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.39,saf,saf_11.3,2,0.0,Wrong modes.
+saf_SDN_11.3.44,saf,saf_11.3,2,0.0,Wrong modes.
+saf_SDN_11.3.50,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.60,saf,saf_11.3,2,0.0,No answer.
+saf_SDN_11.3.61,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.64,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.69,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.73,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.75,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.77,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.78,saf,saf_11.3,2,0.5,"Correct modes, but the downsides do not match."
+saf_SDN_11.3.84,saf,saf_11.3,2,0.0,No answer.
+saf_SDN_11.3.87,saf,saf_11.3,2,0.0,No answer.
+saf_SDN_11.3.92,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.3.93,saf,saf_11.3,2,1.0,Matches the model answer.
+saf_SDN_11.4.5,saf,saf_11.4,2,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.8,saf,saf_11.4,2,0.75,Flow table matches; meter table is described only as statistics.
+saf_SDN_11.4.10,saf,saf_11.4,2,0.875,"Flow table matches; meter rate control matches, statistics missing."
+saf_SDN_11.4.16,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.17,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.19,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.25,saf,saf_11.4,2,0.75,Flow table matches; meter table only as statistics.
+saf_SDN_11.4.27,saf,saf_11.4,2,0.25,Largely incorrect.
+saf_SDN_11.4.30,saf,saf_11.4,2,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.31,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.36,saf,saf_11.4,2,0.75,Flow table matches; meter table only as statistics.
+saf_SDN_11.4.37,saf,saf_11.4,2,0.75,Flow table matches; meter table only as statistics.
+saf_SDN_11.4.42,saf,saf_11.4,2,0.75,Flow table matches; meter table only as statistics.
+saf_SDN_11.4.45,saf,saf_11.4,2,0.75,Flow table matches; meter table only as statistics.
+saf_SDN_11.4.56,saf,saf_11.4,2,0.0,No answer.
+saf_SDN_11.4.59,saf,saf_11.4,2,0.0,"Describes switch types, not the tables."
+saf_SDN_11.4.65,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.66,saf,saf_11.4,2,0.0,No answer.
+saf_SDN_11.4.67,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.76,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.77,saf,saf_11.4,2,1.0,Matches the model answer.
+saf_SDN_11.4.84,saf,saf_11.4,2,0.0,No answer.
+saf_SDN_11.4.85,saf,saf_11.4,2,0.0,No answer.

@@ -1,0 +1,15 @@
+You are an experienced university lecturer marking a short-answer exam question. Mark the student answer fairly, focusing on the subject content.
+
+Marks: 0 to {max_score}, in steps of {step}
+
+Question:
+{question}
+
+Model answer:
+{reference_answer}
+
+Student answer:
+{student_answer}
+
+Reply with JSON only, no other text:
+{"score": <number>, "reason": "<one short sentence>"}
